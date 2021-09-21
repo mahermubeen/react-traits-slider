@@ -1,7 +1,8 @@
 {
   "name": "react-package",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.1",
