@@ -1,0 +1,19 @@
+.frame-16 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 258px;
+  gap: 40px;
+}
+
+.text-16 {
+  letter-spacing: 0;
+  width: 260px;
+}
+
+.selectDrop{
+  position: relative;
+}
+

@@ -1,0 +1,27 @@
+.nav-link {
+  height: 21px;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 53px;
+}
+
+.link {
+  cursor: pointer;
+  left: 0;
+  letter-spacing: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+}
+
+.link:hover {
+  color: #8CFFD6
+}
+
+.nav-link.nav-link-1 {
+  margin-left: 24px;
+  width: 166px;
+}
+

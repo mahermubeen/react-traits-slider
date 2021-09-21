@@ -1,0 +1,303 @@
+.logo {
+  align-items: center;
+  display: flex;
+  height: 121px;
+  left: 44px;
+  padding: 13.9px 11.9px;
+  position: absolute;
+  top: 44px;
+  width: 115px;
+}
+
+.flex-col {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2px;
+  margin-top: 10.88px;
+  min-height: 44px;
+  width: 12px;
+}
+
+.text-7 {
+  letter-spacing: 0;
+  min-height: 19px;
+  width: 5px;
+}
+
+.text-2 {
+  letter-spacing: 0;
+  margin-right: 2.72px;
+  margin-top: 6px;
+  min-height: 19px;
+  width: 10px;
+}
+
+.flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7.75px;
+  margin-left: 2px;
+  min-height: 72px;
+  width: 14px;
+}
+
+.flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 15px;
+  margin-left: 0.29px;
+  min-width: 14px;
+}
+
+.text-12 {
+  letter-spacing: 0;
+  min-height: 9px;
+  width: 4px;
+}
+
+.text-5 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  margin-left: 5px;
+  min-height: 9px;
+  width: 5px;
+}
+
+.vector {
+  height: 24px;
+  margin-top: 2px;
+  width: 14px;
+}
+
+.overlap-group-1 {
+  height: 30px;
+  margin-top: 1px;
+  position: relative;
+  width: 14px;
+}
+
+.vector-1 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.text-11 {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 21px;
+  width: 4px;
+}
+
+.overlap-group5 {
+  align-self: flex-start;
+  height: 93px;
+  margin-left: 1px;
+  position: relative;
+  width: 59px;
+}
+
+.overlap-group8 {
+  height: 83px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 57px;
+}
+
+.overlap-group7 {
+  height: 48px;
+  left: 11px;
+  position: absolute;
+  top: 0;
+  width: 33px;
+}
+
+.overlap-group2 {
+  height: 34px;
+  left: 4px;
+  position: absolute;
+  top: 14px;
+  width: 29px;
+}
+
+.vector-2 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 12px;
+}
+
+.vector-3 {
+  height: 34px;
+  left: 11px;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.vector-4 {
+  height: 28px;
+  left: 19px;
+  position: absolute;
+  top: 6px;
+  width: 10px;
+}
+
+.text-1 {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+
+.vector-5 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 24px;
+  width: 13px;
+}
+
+.overlap-group6 {
+  height: 51px;
+  left: 38px;
+  position: absolute;
+  top: 32px;
+  width: 19px;
+}
+
+.overlap-group1 {
+  height: 34px;
+  left: 0;
+  position: absolute;
+  top: 17px;
+  width: 16px;
+}
+
+.vector-6 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.text-9 {
+  left: 10px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 15px;
+  width: 5px;
+}
+
+.overlap-group4 {
+  height: 21px;
+  left: 10px;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.text-4 {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.text-10 {
+  left: 6px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 12px;
+  width: 4px;
+}
+
+.flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 45px;
+  left: 0;
+  min-width: 37px;
+  position: absolute;
+  top: 48px;
+}
+
+.flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 36px;
+  width: 12px;
+}
+
+.vector-7 {
+  height: 24px;
+  width: 12px;
+}
+
+.text-6 {
+  letter-spacing: 0;
+  margin-left: 0.26px;
+  margin-top: 2px;
+  min-height: 9px;
+  width: 5px;
+}
+
+.flex-col-3 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2px;
+  min-height: 45px;
+  width: 22px;
+}
+
+.overlap-group3 {
+  height: 25px;
+  position: relative;
+  width: 22px;
+}
+
+.vector-8 {
+  height: 25px;
+  left: 9px;
+  position: absolute;
+  top: 0;
+  width: 13px;
+}
+
+.vector-9 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 10px;
+}
+
+.text-3 {
+  letter-spacing: 0;
+  margin-left: 1.84px;
+  margin-top: 1px;
+  min-height: 19px;
+  width: 10px;
+}
+
+.text-8 {
+  left: 54px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 9px;
+  width: 5px;
+}
+

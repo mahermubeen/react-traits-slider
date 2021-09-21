@@ -1,0 +1,142 @@
+:root { 
+  --black-pearl: #050f2240;
+  --cerulean: #009ce0;
+  --daintree: #002839;
+  --electric-violet: #8001ff80;
+  --electric-violet-2: #7f00ff;
+  --electric-violet-3: #ad00ff;
+  --gold-drop: #d88200;
+  --harlequin: #29ff00;
+  --lemon: #f7e00c;
+  --magic-potion: #001949;
+  --malachite: #00d13a;
+  --mist-gray: #c4c4c4;
+  --mist-gray-1: #c4c4c4;
+  --robins-egg-blue: #00d1c4;
+  --white: #ffffff;
+ 
+  --font-size-l: 24px;
+  --font-size-m: 18px;
+  --font-size-s: 16.9px;
+  --font-size-s2: 14px;
+  --font-size-xl: 36px;
+  --font-size-xs2: 12px;
+  --font-size-xxxs: 7.7px;
+ 
+  --font-family-gracita_morales-regular: "Gracita Morales-Regular", Helvetica;
+  --font-family-sf_pro_display-black: "SF Pro Display-Black", Helvetica;
+  --font-family-sf_pro_display-bold: "SF Pro Display-Bold", Helvetica;
+  --font-family-sf_pro_display-heavy: "SF Pro Display-Heavy", Helvetica;
+  --font-family-sf_pro_display-regular: "SF Pro Display-Regular", Helvetica;
+}
+.gracitamorales-regular-normal-white-16-9px {
+  color: var(--white);
+  font-family: var(--font-family-gracita_morales-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sfprodisplay-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sfprodisplay-heavy-normal-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-heavy);
+  font-size: var(--font-size-xs2);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.gracitamorales-regular-normal-white-7-7px {
+  color: var(--white);
+  font-family: var(--font-family-gracita_morales-regular);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sfprodisplay-bold-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.gracitamorales-regular-normal-white-8-1px {
+  color: var(--white);
+  font-family: var(--font-family-gracita_morales-regular);
+  font-size: 8.1px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sfprodisplay-black-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-black);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.gracitamorales-regular-normal-white-12-1px {
+  color: var(--white);
+  font-family: var(--font-family-gracita_morales-regular);
+  font-size: 12.1px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sfprodisplay-bold-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-s2);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sfprodisplay-bold-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sfprodisplay-black-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-black);
+  font-size: var(--font-size-s2);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.sfprodisplay-heavy-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-heavy);
+  font-size: var(--font-size-s2);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sfprodisplay-regular-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-s2);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sfprodisplay-black-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-black);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 900;
+}

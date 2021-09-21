@@ -1,0 +1,94 @@
+.frame-38 {
+  height: 326px;
+  position: relative;
+  width: 390px;
+  opacity: 0;
+transform: scale(1.1);
+}
+
+.frame-38.animate-enter4 {
+  animation: animate-enter4-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  opacity: 0;
+transform: scale(1.1);
+}
+
+.frame-30 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 24px;
+  min-height: 157px;
+  padding: 12px 0;
+  position: absolute;
+  top: 24px;
+  width: 342px;
+}
+
+.try-to-solve {
+  letter-spacing: 0;
+  margin-left: 2.0px;
+  margin-top: 12px;
+  min-height: 29px;
+  min-width: 126px;
+  text-align: center;
+}
+
+.the-gre4-t-puzzle {
+  letter-spacing: 0;
+  margin-left: 2.0px;
+  margin-top: 10px;
+  min-height: 43px;
+  min-width: 344px;
+  text-align: center;
+}
+
+.and-win {
+  letter-spacing: 0;
+  margin-left: 2.0px;
+  margin-top: 10px;
+  min-height: 29px;
+  min-width: 87px;
+  text-align: center;
+}
+
+.frame-24 {
+  background-color: var(--electric-violet-3);
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px #db00ff54;
+  height: 73px;
+  left: 75px;
+  pointer-events: auto;
+  position: absolute;
+  top: 205px;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.frame-24:hover {
+  transform: scale(1.05);
+}
+
+.trophy-svgrepo-com-2 {
+  height: 28px;
+  left: 30px;
+  position: absolute;
+  top: 22px;
+  width: 28px;
+}
+
+.x00000-sol {
+  left: 66px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 22px;
+}
+
+@keyframes animate-enter4-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
