@@ -106,14 +106,7 @@ function Desktop(props) {
         setRaritty(gg.rarity);
         setRarittyNo(gg.rarity_no);
         dispatch(setActiveIndex());
-      } else if (attrs) {
-        var gg = attrs.at(activeIndex);
-
-        setDesc(gg.desc);
-        setName(gg.name);
-        setRaritty(gg.rarity);
-        setRarittyNo(gg.rarity_no);
-      } else if (activeIndex) {
+      } else {
         var gg = attrs.at(activeIndex);
 
         setDesc(gg.desc);
@@ -242,12 +235,14 @@ function Desktop(props) {
                 ></div>
                 <div
                   className={`rectangle-8 smart-layers-pointers ${
-                    rarittyNo > 1 && rarittyNo <= 16 ? "rec8-active" : ""
+                    Math.round(rarittyNo) >= 2 && rarittyNo <= 16
+                      ? "rec8-active"
+                      : ""
                   }`}
                 ></div>
                 <div
                   className={`rectangle-9 smart-layers-pointers ${
-                    rarity === 1 ? "rec9-active" : ""
+                    Math.round(rarittyNo) <= 1 ? "rec9-active" : ""
                   }`}
                 ></div>
               </div>

@@ -44251,16 +44251,7 @@ var DiscoverTraits = function DiscoverTraits(_ref) {
         setRaritty(gg.rarity);
         setRarittyNo(gg.rarity_no);
         dispatch((0, _general.setActiveIndex)());
-      } else if (attrs) {
-        // console.log("attrs", attrs);
-        // console.log("active Index", activeIndex);
-        // console.log("array length", attrs.length - 1);
-        var gg = attrs.at(activeIndex);
-        setDesc(gg.desc);
-        setName(gg.name);
-        setRaritty(gg.rarity);
-        setRarittyNo(gg.rarity_no);
-      } else if (activeIndex) {
+      } else {
         var gg = attrs.at(activeIndex);
         setDesc(gg.desc);
         setName(gg.name);
@@ -44288,10 +44279,12 @@ var DiscoverTraits = function DiscoverTraits(_ref) {
     layer3: layer3,
     attrs: attrs
   }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-17 ".concat(rarittyNo > 1000 ? "rec2-active" : "" || rarittyNo > 500 && rarittyNo <= 1000 ? "rec4-active" : "" || rarittyNo > 150 && rarittyNo <= 500 ? "rec6-active" : "" || rarittyNo > 50 && rarittyNo <= 150 ? "rec5-active" : "" || rarittyNo > 16 && rarittyNo <= 50 ? "rec7-active" : "" || rarittyNo > 1 && rarittyNo <= 16 ? "rec8-active" : "" || rarittyNo === 1 ? "rec9-active" : "")
+    className: "frame-17 ".concat(rarittyNo > 1000 ? "rec2-active" : "" || rarittyNo > 500 && rarittyNo <= 1000 ? "rec4-active" : "" || rarittyNo > 150 && rarittyNo <= 500 ? "rec6-active" : "" || rarittyNo > 50 && rarittyNo <= 150 ? "rec5-active" : "" || rarittyNo > 16 && rarittyNo <= 50 ? "rec7-active" : "" || Math.round(rarittyNo) >= 2 && rarittyNo <= 16 ? "rec8-active" : "" || Math.round(rarittyNo) <= 1 ? "rec9-active" : "")
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "cyborg sfprodisplay-heavy-normal-white-14px"
-  }, name), /*#__PURE__*/_react.default.createElement("div", {
+  }, name.replace(/(^\w|\s\w)/g, function (m) {
+    return m.toUpperCase();
+  })), /*#__PURE__*/_react.default.createElement("div", {
     className: "have-this-trait sfprodisplay-regular-normal-white-14px"
   }, raritty, "%"))));
 };
@@ -44844,13 +44837,7 @@ function Desktop(props) {
         setRaritty(gg.rarity);
         setRarittyNo(gg.rarity_no);
         dispatch((0, _general.setActiveIndex)());
-      } else if (attrs) {
-        var gg = attrs.at(activeIndex);
-        setDesc(gg.desc);
-        setName(gg.name);
-        setRaritty(gg.rarity);
-        setRarittyNo(gg.rarity_no);
-      } else if (activeIndex) {
+      } else {
         var gg = attrs.at(activeIndex);
         setDesc(gg.desc);
         setName(gg.name);
@@ -44964,9 +44951,9 @@ function Desktop(props) {
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "rectangle-7 smart-layers-pointers ".concat(rarittyNo > 16 && rarittyNo <= 50 ? "rec7-active" : "")
   }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "rectangle-8 smart-layers-pointers ".concat(rarittyNo > 1 && rarittyNo <= 16 ? "rec8-active" : "")
+    className: "rectangle-8 smart-layers-pointers ".concat(Math.round(rarittyNo) >= 2 && rarittyNo <= 16 ? "rec8-active" : "")
   }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "rectangle-9 smart-layers-pointers ".concat(rarity === 1 ? "rec9-active" : "")
+    className: "rectangle-9 smart-layers-pointers ".concat(Math.round(rarittyNo) <= 1 ? "rec9-active" : "")
   })), /*#__PURE__*/_react.default.createElement("div", {
     className: "flex-row sfprodisplay-heavy-normal-white-12px"
   }, /*#__PURE__*/_react.default.createElement("div", {
@@ -45050,7 +45037,269 @@ function Desktop(props) {
 
 var _default = Desktop;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../LOGO":"components/LOGO/index.jsx","../NAVLINK":"components/NAVLINK/index.jsx","../NAVLINK2":"components/NAVLINK2/index.jsx","../Frame13":"components/Frame13/index.jsx","../Property1Default":"components/Property1Default/index.jsx","../Property1Variant3":"components/Property1Variant3/index.jsx","../Property1Variant2":"components/Property1Variant2/index.jsx","../DiscoverTraits":"components/DiscoverTraits/index.jsx","../Frame38":"components/Frame38/index.jsx","../CardTypeMainTweetDarkModeFalseYourT":"components/CardTypeMainTweetDarkModeFalseYourT/index.jsx","../FOOTER":"components/FOOTER/index.jsx","./Desktop.css":"components/Desktop/Desktop.css","../../redux/reducers/general":"redux/reducers/general.js","react-redux":"node_modules/react-redux/es/index.js"}],"components/Main/index.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../LOGO":"components/LOGO/index.jsx","../NAVLINK":"components/NAVLINK/index.jsx","../NAVLINK2":"components/NAVLINK2/index.jsx","../Frame13":"components/Frame13/index.jsx","../Property1Default":"components/Property1Default/index.jsx","../Property1Variant3":"components/Property1Variant3/index.jsx","../Property1Variant2":"components/Property1Variant2/index.jsx","../DiscoverTraits":"components/DiscoverTraits/index.jsx","../Frame38":"components/Frame38/index.jsx","../CardTypeMainTweetDarkModeFalseYourT":"components/CardTypeMainTweetDarkModeFalseYourT/index.jsx","../FOOTER":"components/FOOTER/index.jsx","./Desktop.css":"components/Desktop/Desktop.css","../../redux/reducers/general":"redux/reducers/general.js","react-redux":"node_modules/react-redux/es/index.js"}],"images/salmon.PNG":[function(require,module,exports) {
+module.exports = "/salmon.083d8607.PNG";
+},{}],"images/navy.PNG":[function(require,module,exports) {
+module.exports = "/navy.a3613e28.PNG";
+},{}],"images/sky-blue.PNG":[function(require,module,exports) {
+module.exports = "/sky-blue.f5ace056.PNG";
+},{}],"images/lemon.PNG":[function(require,module,exports) {
+module.exports = "/lemon.950248d2.PNG";
+},{}],"images/pale-green.PNG":[function(require,module,exports) {
+module.exports = "/pale-green.e819a2e0.PNG";
+},{}],"images/dark-green.PNG":[function(require,module,exports) {
+module.exports = "/dark-green.70383292.PNG";
+},{}],"images/pearl.PNG":[function(require,module,exports) {
+module.exports = "/pearl.1fe6c6c3.PNG";
+},{}],"images/chocolate.PNG":[function(require,module,exports) {
+module.exports = "/chocolate.f9a3d536.PNG";
+},{}],"images/black.PNG":[function(require,module,exports) {
+module.exports = "/black.40d96424.PNG";
+},{}],"images/dim-grey.PNG":[function(require,module,exports) {
+module.exports = "/dim-grey.6b255d61.PNG";
+},{}],"images/gainsboro.PNG":[function(require,module,exports) {
+module.exports = "/gainsboro.e0251a32.PNG";
+},{}],"images/beige.PNG":[function(require,module,exports) {
+module.exports = "/beige.61820c67.PNG";
+},{}],"images/violet.PNG":[function(require,module,exports) {
+module.exports = "/violet.8e060d81.PNG";
+},{}],"images/coral.PNG":[function(require,module,exports) {
+module.exports = "/coral.7e776ef1.PNG";
+},{}],"images/water.PNG":[function(require,module,exports) {
+module.exports = "/water.b99bd1b1.PNG";
+},{}],"images/fire.PNG":[function(require,module,exports) {
+module.exports = "/fire.aeb9b804.PNG";
+},{}],"images/solana.PNG":[function(require,module,exports) {
+module.exports = "/solana.3592e727.PNG";
+},{}],"images/dawn.PNG":[function(require,module,exports) {
+module.exports = "/dawn.81dff4d6.PNG";
+},{}],"images/nerd-face.PNG":[function(require,module,exports) {
+module.exports = "/nerd-face.1976787a.PNG";
+},{}],"images/deep-space.PNG":[function(require,module,exports) {
+module.exports = "/deep-space.2b0329ee.PNG";
+},{}],"images/matrix.PNG":[function(require,module,exports) {
+module.exports = "/matrix.1361e77f.PNG";
+},{}],"images/trading-setup.PNG":[function(require,module,exports) {
+module.exports = "/trading-setup.137a608b.PNG";
+},{}],"images/holo-sphere.PNG":[function(require,module,exports) {
+module.exports = "/holo-sphere.f7aec92a.PNG";
+},{}],"images/graffiti.PNG":[function(require,module,exports) {
+module.exports = "/graffiti.aae64973.PNG";
+},{}],"images/pizza4life.PNG":[function(require,module,exports) {
+module.exports = "/pizza4life.d4cca93a.PNG";
+},{}],"images/light-blonde.PNG":[function(require,module,exports) {
+module.exports = "/light-blonde.450772f9.PNG";
+},{}],"images/light-black.PNG":[function(require,module,exports) {
+module.exports = "/light-black.f44798dc.PNG";
+},{}],"images/mid.PNG":[function(require,module,exports) {
+module.exports = "/mid.708c5386.PNG";
+},{}],"images/dark.PNG":[function(require,module,exports) {
+module.exports = "/dark.31a53028.PNG";
+},{}],"images/puberty.PNG":[function(require,module,exports) {
+module.exports = "/puberty.21cafe64.PNG";
+},{}],"images/phantom.PNG":[function(require,module,exports) {
+module.exports = "/phantom.1a0597bd.PNG";
+},{}],"images/zombie.PNG":[function(require,module,exports) {
+module.exports = "/zombie.8c9e2a24.PNG";
+},{}],"images/cyborg.PNG":[function(require,module,exports) {
+module.exports = "/cyborg.9d68edbf.PNG";
+},{}],"images/intersteller.PNG":[function(require,module,exports) {
+module.exports = "/intersteller.6d5be461.PNG";
+},{}],"images/slime.PNG":[function(require,module,exports) {
+module.exports = "/slime.810b8772.PNG";
+},{}],"images/ai.PNG":[function(require,module,exports) {
+module.exports = "/ai.8a79b1be.PNG";
+},{}],"images/zip-hoodie.PNG":[function(require,module,exports) {
+module.exports = "/zip-hoodie.07c2f6b6.PNG";
+},{}],"images/white-tshirt.PNG":[function(require,module,exports) {
+module.exports = "/white-tshirt.334e3541.PNG";
+},{}],"images/black-tshirt.PNG":[function(require,module,exports) {
+module.exports = "/black-tshirt.41fcd34a.PNG";
+},{}],"images/white-shirt.PNG":[function(require,module,exports) {
+module.exports = "/white-shirt.b8a77ecd.PNG";
+},{}],"images/suit-vest.PNG":[function(require,module,exports) {
+module.exports = "/suit-vest.c3d81654.PNG";
+},{}],"images/sttng-uniform.PNG":[function(require,module,exports) {
+module.exports = "/sttng-uniform.4b8f7666.PNG";
+},{}],"images/ma-1.PNG":[function(require,module,exports) {
+module.exports = "/ma-1.3379cda4.PNG";
+},{}],"images/buffer-jacket.PNG":[function(require,module,exports) {
+module.exports = "/buffer-jacket.da6a0f17.PNG";
+},{}],"images/wizard-robe.PNG":[function(require,module,exports) {
+module.exports = "/wizard-robe.05c9778b.PNG";
+},{}],"images/college-jacket.PNG":[function(require,module,exports) {
+module.exports = "/college-jacket.806caa7d.PNG";
+},{}],"images/plaid-shirt.PNG":[function(require,module,exports) {
+module.exports = "/plaid-shirt.6fd86340.PNG";
+},{}],"images/denim-jacket.PNG":[function(require,module,exports) {
+module.exports = "/denim-jacket.215e84b7.PNG";
+},{}],"images/tracksuit.PNG":[function(require,module,exports) {
+module.exports = "/tracksuit.d799a2a8.PNG";
+},{}],"images/turtleneck.PNG":[function(require,module,exports) {
+module.exports = "/turtleneck.dbe88490.PNG";
+},{}],"images/tie-die-tshirt.PNG":[function(require,module,exports) {
+module.exports = "/tie-die-tshirt.a299c443.PNG";
+},{}],"images/solana-uniform.PNG":[function(require,module,exports) {
+module.exports = "/solana-uniform.ca164741.PNG";
+},{}],"images/hawaiian-shirt.PNG":[function(require,module,exports) {
+module.exports = "/hawaiian-shirt.0f702fe9.PNG";
+},{}],"images/b-ball-jersey.PNG":[function(require,module,exports) {
+module.exports = "/b-ball-jersey.b84ce6d3.PNG";
+},{}],"images/soccer-jersey.PNG":[function(require,module,exports) {
+module.exports = "/soccer-jersey.db2ea7cf.PNG";
+},{}],"images/biker-jacket.PNG":[function(require,module,exports) {
+module.exports = "/biker-jacket.f2215fc2.PNG";
+},{}],"images/slip-over.PNG":[function(require,module,exports) {
+module.exports = "/slip-over.4ae3c4f5.PNG";
+},{}],"images/suit.PNG":[function(require,module,exports) {
+module.exports = "/suit.76ddc4ce.PNG";
+},{}],"images/space-suit.PNG":[function(require,module,exports) {
+module.exports = "/space-suit.772a457d.PNG";
+},{}],"images/thobe.PNG":[function(require,module,exports) {
+module.exports = "/thobe.c8c7045b.PNG";
+},{}],"images/caesar.PNG":[function(require,module,exports) {
+module.exports = "/caesar.7f31ce97.PNG";
+},{}],"images/diamond-sweatshirt.PNG":[function(require,module,exports) {
+module.exports = "/diamond-sweatshirt.ea80cf73.PNG";
+},{}],"images/holo-zip-hoodie.PNG":[function(require,module,exports) {
+module.exports = "/holo-zip-hoodie.b9336a8d.PNG";
+},{}],"images/vader's-armor.PNG":[function(require,module,exports) {
+module.exports = "/vader's-armor.34b4f13a.PNG";
+},{}],"images/lava-set.PNG":[function(require,module,exports) {
+module.exports = "/lava-set.d60a3664.PNG";
+},{}],"images/smirk.PNG":[function(require,module,exports) {
+module.exports = "/smirk.97532859.PNG";
+},{}],"images/grin.PNG":[function(require,module,exports) {
+module.exports = "/grin.a4fa95b6.PNG";
+},{}],"images/surprised.PNG":[function(require,module,exports) {
+module.exports = "/surprised.f13900d8.PNG";
+},{}],"images/tongue-out.PNG":[function(require,module,exports) {
+module.exports = "/tongue-out.4ac62cd1.PNG";
+},{}],"images/braces.PNG":[function(require,module,exports) {
+module.exports = "/braces.5ee30093.PNG";
+},{}],"images/mustache.PNG":[function(require,module,exports) {
+module.exports = "/mustache.d8d0056a.PNG";
+},{}],"images/beard.PNG":[function(require,module,exports) {
+module.exports = "/beard.e12e0ed8.PNG";
+},{}],"images/send-love.PNG":[function(require,module,exports) {
+module.exports = "/send-love.b57abb74.PNG";
+},{}],"images/party-horn.PNG":[function(require,module,exports) {
+module.exports = "/party-horn.640c7434.PNG";
+},{}],"images/red-bandana.PNG":[function(require,module,exports) {
+module.exports = "/red-bandana.fdc0446e.PNG";
+},{}],"images/blue-bandana.PNG":[function(require,module,exports) {
+module.exports = "/blue-bandana.cdb0c8f8.PNG";
+},{}],"images/cuban-cigar.PNG":[function(require,module,exports) {
+module.exports = "/cuban-cigar.e8199518.PNG";
+},{}],"images/vampire-teeth.PNG":[function(require,module,exports) {
+module.exports = "/vampire-teeth.ae0163eb.PNG";
+},{}],"images/joker.PNG":[function(require,module,exports) {
+module.exports = "/joker.5dd67f76.PNG";
+},{}],"images/diamond-grillz.PNG":[function(require,module,exports) {
+module.exports = "/diamond-grillz.862355ff.PNG";
+},{}],"images/elon-musk.PNG":[function(require,module,exports) {
+module.exports = "/elon-musk.9b7a214e.PNG";
+},{}],"images/black-face.PNG":[function(require,module,exports) {
+module.exports = "/black-face.0034274a.PNG";
+},{}],"images/brown-face.PNG":[function(require,module,exports) {
+module.exports = "/brown-face.9e10b470.PNG";
+},{}],"images/blue-face.PNG":[function(require,module,exports) {
+module.exports = "/blue-face.339e3d59.PNG";
+},{}],"images/green-face.PNG":[function(require,module,exports) {
+module.exports = "/green-face.275c6dbf.PNG";
+},{}],"images/sunglasses.PNG":[function(require,module,exports) {
+module.exports = "/sunglasses.e6459c76.PNG";
+},{}],"images/nerd-viper.PNG":[function(require,module,exports) {
+module.exports = "/nerd-viper.c07704c3.PNG";
+},{}],"images/solana-summer.PNG":[function(require,module,exports) {
+module.exports = "/solana-summer.ed4abfa6.PNG";
+},{}],"images/freckles.PNG":[function(require,module,exports) {
+module.exports = "/freckles.388fcaef.PNG";
+},{}],"images/exhausted.PNG":[function(require,module,exports) {
+module.exports = "/exhausted.d5b77937.PNG";
+},{}],"images/nerd-glasses.PNG":[function(require,module,exports) {
+module.exports = "/nerd-glasses.1f96ff88.PNG";
+},{}],"images/future.PNG":[function(require,module,exports) {
+module.exports = "/future.dc0c2f11.PNG";
+},{}],"images/psycho.PNG":[function(require,module,exports) {
+module.exports = "/psycho.8f568164.PNG";
+},{}],"images/diamond-face.PNG":[function(require,module,exports) {
+module.exports = "/diamond-face.75a188c1.PNG";
+},{}],"images/laser-face.PNG":[function(require,module,exports) {
+module.exports = "/laser-face.62e1b08c.PNG";
+},{}],"images/bitcoin.PNG":[function(require,module,exports) {
+module.exports = "/bitcoin.e03f7411.PNG";
+},{}],"images/rainbow.PNG":[function(require,module,exports) {
+module.exports = "/rainbow.318af2f9.PNG";
+},{}],"images/onyx.PNG":[function(require,module,exports) {
+module.exports = "/onyx.7ac6e975.PNG";
+},{}],"images/none.PNG":[function(require,module,exports) {
+module.exports = "/none.6e5840dd.PNG";
+},{}],"images/black-beanie.PNG":[function(require,module,exports) {
+module.exports = "/black-beanie.db99219c.PNG";
+},{}],"images/orange-beanie.PNG":[function(require,module,exports) {
+module.exports = "/orange-beanie.4330d153.PNG";
+},{}],"images/beige-beanie.PNG":[function(require,module,exports) {
+module.exports = "/beige-beanie.500bba62.PNG";
+},{}],"images/snapback.PNG":[function(require,module,exports) {
+module.exports = "/snapback.ff49a9fd.PNG";
+},{}],"images/flat-cap.PNG":[function(require,module,exports) {
+module.exports = "/flat-cap.5dba41b5.PNG";
+},{}],"images/headset.PNG":[function(require,module,exports) {
+module.exports = "/headset.a7e98fcc.PNG";
+},{}],"images/solana-headband.PNG":[function(require,module,exports) {
+module.exports = "/solana-headband.7739318a.PNG";
+},{}],"images/quit-crypto-hat.PNG":[function(require,module,exports) {
+module.exports = "/quit-crypto-hat.4487a2b0.PNG";
+},{}],"images/devil-horns.PNG":[function(require,module,exports) {
+module.exports = "/devil-horns.5e00a2c2.PNG";
+},{}],"images/bowl-cut.PNG":[function(require,module,exports) {
+module.exports = "/bowl-cut.6f970f60.PNG";
+},{}],"images/crown.PNG":[function(require,module,exports) {
+module.exports = "/crown.763a88df.PNG";
+},{}],"images/space-helmet.PNG":[function(require,module,exports) {
+module.exports = "/space-helmet.038008b4.PNG";
+},{}],"images/keffiyeh.PNG":[function(require,module,exports) {
+module.exports = "/keffiyeh.127d18e5.PNG";
+},{}],"images/diamond-headset.PNG":[function(require,module,exports) {
+module.exports = "/diamond-headset.e148dd67.PNG";
+},{}],"images/war-bonnet.PNG":[function(require,module,exports) {
+module.exports = "/war-bonnet.e12d47ea.PNG";
+},{}],"images/super-brain.PNG":[function(require,module,exports) {
+module.exports = "/super-brain.224c2363.PNG";
+},{}],"images/laurel-wreath.PNG":[function(require,module,exports) {
+module.exports = "/laurel-wreath.a2545da5.PNG";
+},{}],"images/holo-halo.PNG":[function(require,module,exports) {
+module.exports = "/holo-halo.2a5a0897.PNG";
+},{}],"images/vader's-helmet.PNG":[function(require,module,exports) {
+module.exports = "/vader's-helmet.5adca861.PNG";
+},{}],"images/sam's-hair.PNG":[function(require,module,exports) {
+module.exports = "/sam's-hair.860d85da.PNG";
+},{}],"images/peace.PNG":[function(require,module,exports) {
+module.exports = "/peace.4e9add1a.PNG";
+},{}],"images/coffee.PNG":[function(require,module,exports) {
+module.exports = "/coffee.096ea916.PNG";
+},{}],"images/cash.PNG":[function(require,module,exports) {
+module.exports = "/cash.2fe7bd96.PNG";
+},{}],"images/solana-chain.PNG":[function(require,module,exports) {
+module.exports = "/solana-chain.d6af2520.PNG";
+},{}],"images/blue-light-saber.PNG":[function(require,module,exports) {
+module.exports = "/blue-light-saber.8b4e3763.PNG";
+},{}],"images/red-light-saber.PNG":[function(require,module,exports) {
+module.exports = "/red-light-saber.92b4668f.PNG";
+},{}],"images/cape.PNG":[function(require,module,exports) {
+module.exports = "/cape.502fdce7.PNG";
+},{}],"images/btc-chain.PNG":[function(require,module,exports) {
+module.exports = "/btc-chain.4ee02b57.PNG";
+},{}],"images/jetpack.PNG":[function(require,module,exports) {
+module.exports = "/jetpack.db936f20.PNG";
+},{}],"images/nerd-chain.PNG":[function(require,module,exports) {
+module.exports = "/nerd-chain.28cba742.PNG";
+},{}],"images/holo-wings.PNG":[function(require,module,exports) {
+module.exports = "/holo-wings.1be6ad42.PNG";
+},{}],"images/holo-chart.PNG":[function(require,module,exports) {
+module.exports = "/holo-chart.10226e1d.PNG";
+},{}],"components/Main/index.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -45067,6 +45316,268 @@ var _general = require("../../redux/reducers/general");
 var _reactRedux = require("react-redux");
 
 var _Desktop = _interopRequireDefault(require("../Desktop"));
+
+var _salmon = _interopRequireDefault(require("../../images/salmon.PNG"));
+
+var _navy = _interopRequireDefault(require("../../images/navy.PNG"));
+
+var _skyBlue = _interopRequireDefault(require("../../images/sky-blue.PNG"));
+
+var _lemon = _interopRequireDefault(require("../../images/lemon.PNG"));
+
+var _paleGreen = _interopRequireDefault(require("../../images/pale-green.PNG"));
+
+var _darkGreen = _interopRequireDefault(require("../../images/dark-green.PNG"));
+
+var _pearl = _interopRequireDefault(require("../../images/pearl.PNG"));
+
+var _chocolate = _interopRequireDefault(require("../../images/chocolate.PNG"));
+
+var _black = _interopRequireDefault(require("../../images/black.PNG"));
+
+var _dimGrey = _interopRequireDefault(require("../../images/dim-grey.PNG"));
+
+var _gainsboro = _interopRequireDefault(require("../../images/gainsboro.PNG"));
+
+var _beige = _interopRequireDefault(require("../../images/beige.PNG"));
+
+var _violet = _interopRequireDefault(require("../../images/violet.PNG"));
+
+var _coral = _interopRequireDefault(require("../../images/coral.PNG"));
+
+var _water = _interopRequireDefault(require("../../images/water.PNG"));
+
+var _fire = _interopRequireDefault(require("../../images/fire.PNG"));
+
+var _solana = _interopRequireDefault(require("../../images/solana.PNG"));
+
+var _dawn = _interopRequireDefault(require("../../images/dawn.PNG"));
+
+var _nerdFace = _interopRequireDefault(require("../../images/nerd-face.PNG"));
+
+var _deepSpace = _interopRequireDefault(require("../../images/deep-space.PNG"));
+
+var _matrix = _interopRequireDefault(require("../../images/matrix.PNG"));
+
+var _tradingSetup = _interopRequireDefault(require("../../images/trading-setup.PNG"));
+
+var _holoSphere = _interopRequireDefault(require("../../images/holo-sphere.PNG"));
+
+var _graffiti = _interopRequireDefault(require("../../images/graffiti.PNG"));
+
+var _pizza4life = _interopRequireDefault(require("../../images/pizza4life.PNG"));
+
+var _lightBlonde = _interopRequireDefault(require("../../images/light-blonde.PNG"));
+
+var _lightBlack = _interopRequireDefault(require("../../images/light-black.PNG"));
+
+var _mid = _interopRequireDefault(require("../../images/mid.PNG"));
+
+var _dark = _interopRequireDefault(require("../../images/dark.PNG"));
+
+var _puberty = _interopRequireDefault(require("../../images/puberty.PNG"));
+
+var _phantom = _interopRequireDefault(require("../../images/phantom.PNG"));
+
+var _zombie = _interopRequireDefault(require("../../images/zombie.PNG"));
+
+var _cyborg = _interopRequireDefault(require("../../images/cyborg.PNG"));
+
+var _intersteller = _interopRequireDefault(require("../../images/intersteller.PNG"));
+
+var _slime = _interopRequireDefault(require("../../images/slime.PNG"));
+
+var _ai = _interopRequireDefault(require("../../images/ai.PNG"));
+
+var _zipHoodie = _interopRequireDefault(require("../../images/zip-hoodie.PNG"));
+
+var _whiteTshirt = _interopRequireDefault(require("../../images/white-tshirt.PNG"));
+
+var _blackTshirt = _interopRequireDefault(require("../../images/black-tshirt.PNG"));
+
+var _whiteShirt = _interopRequireDefault(require("../../images/white-shirt.PNG"));
+
+var _suitVest = _interopRequireDefault(require("../../images/suit-vest.PNG"));
+
+var _sttngUniform = _interopRequireDefault(require("../../images/sttng-uniform.PNG"));
+
+var _ma = _interopRequireDefault(require("../../images/ma-1.PNG"));
+
+var _bufferJacket = _interopRequireDefault(require("../../images/buffer-jacket.PNG"));
+
+var _wizardRobe = _interopRequireDefault(require("../../images/wizard-robe.PNG"));
+
+var _collegeJacket = _interopRequireDefault(require("../../images/college-jacket.PNG"));
+
+var _plaidShirt = _interopRequireDefault(require("../../images/plaid-shirt.PNG"));
+
+var _denimJacket = _interopRequireDefault(require("../../images/denim-jacket.PNG"));
+
+var _tracksuit = _interopRequireDefault(require("../../images/tracksuit.PNG"));
+
+var _turtleneck = _interopRequireDefault(require("../../images/turtleneck.PNG"));
+
+var _tieDieTshirt = _interopRequireDefault(require("../../images/tie-die-tshirt.PNG"));
+
+var _solanaUniform = _interopRequireDefault(require("../../images/solana-uniform.PNG"));
+
+var _hawaiianShirt = _interopRequireDefault(require("../../images/hawaiian-shirt.PNG"));
+
+var _bBallJersey = _interopRequireDefault(require("../../images/b-ball-jersey.PNG"));
+
+var _soccerJersey = _interopRequireDefault(require("../../images/soccer-jersey.PNG"));
+
+var _bikerJacket = _interopRequireDefault(require("../../images/biker-jacket.PNG"));
+
+var _slipOver = _interopRequireDefault(require("../../images/slip-over.PNG"));
+
+var _suit = _interopRequireDefault(require("../../images/suit.PNG"));
+
+var _spaceSuit = _interopRequireDefault(require("../../images/space-suit.PNG"));
+
+var _thobe = _interopRequireDefault(require("../../images/thobe.PNG"));
+
+var _caesar = _interopRequireDefault(require("../../images/caesar.PNG"));
+
+var _diamondSweatshirt = _interopRequireDefault(require("../../images/diamond-sweatshirt.PNG"));
+
+var _holoZipHoodie = _interopRequireDefault(require("../../images/holo-zip-hoodie.PNG"));
+
+var _vaderSArmor = _interopRequireDefault(require("../../images/vader's-armor.PNG"));
+
+var _lavaSet = _interopRequireDefault(require("../../images/lava-set.PNG"));
+
+var _smirk = _interopRequireDefault(require("../../images/smirk.PNG"));
+
+var _grin = _interopRequireDefault(require("../../images/grin.PNG"));
+
+var _surprised = _interopRequireDefault(require("../../images/surprised.PNG"));
+
+var _tongueOut = _interopRequireDefault(require("../../images/tongue-out.PNG"));
+
+var _braces = _interopRequireDefault(require("../../images/braces.PNG"));
+
+var _mustache = _interopRequireDefault(require("../../images/mustache.PNG"));
+
+var _beard = _interopRequireDefault(require("../../images/beard.PNG"));
+
+var _sendLove = _interopRequireDefault(require("../../images/send-love.PNG"));
+
+var _partyHorn = _interopRequireDefault(require("../../images/party-horn.PNG"));
+
+var _redBandana = _interopRequireDefault(require("../../images/red-bandana.PNG"));
+
+var _blueBandana = _interopRequireDefault(require("../../images/blue-bandana.PNG"));
+
+var _cubanCigar = _interopRequireDefault(require("../../images/cuban-cigar.PNG"));
+
+var _vampireTeeth = _interopRequireDefault(require("../../images/vampire-teeth.PNG"));
+
+var _joker = _interopRequireDefault(require("../../images/joker.PNG"));
+
+var _diamondGrillz = _interopRequireDefault(require("../../images/diamond-grillz.PNG"));
+
+var _elonMusk = _interopRequireDefault(require("../../images/elon-musk.PNG"));
+
+var _blackFace = _interopRequireDefault(require("../../images/black-face.PNG"));
+
+var _brownFace = _interopRequireDefault(require("../../images/brown-face.PNG"));
+
+var _blueFace = _interopRequireDefault(require("../../images/blue-face.PNG"));
+
+var _greenFace = _interopRequireDefault(require("../../images/green-face.PNG"));
+
+var _sunglasses = _interopRequireDefault(require("../../images/sunglasses.PNG"));
+
+var _nerdViper = _interopRequireDefault(require("../../images/nerd-viper.PNG"));
+
+var _solanaSummer = _interopRequireDefault(require("../../images/solana-summer.PNG"));
+
+var _freckles = _interopRequireDefault(require("../../images/freckles.PNG"));
+
+var _exhausted = _interopRequireDefault(require("../../images/exhausted.PNG"));
+
+var _nerdGlasses = _interopRequireDefault(require("../../images/nerd-glasses.PNG"));
+
+var _future = _interopRequireDefault(require("../../images/future.PNG"));
+
+var _psycho = _interopRequireDefault(require("../../images/psycho.PNG"));
+
+var _diamondFace = _interopRequireDefault(require("../../images/diamond-face.PNG"));
+
+var _laserFace = _interopRequireDefault(require("../../images/laser-face.PNG"));
+
+var _bitcoin = _interopRequireDefault(require("../../images/bitcoin.PNG"));
+
+var _rainbow = _interopRequireDefault(require("../../images/rainbow.PNG"));
+
+var _onyx = _interopRequireDefault(require("../../images/onyx.PNG"));
+
+var _none = _interopRequireDefault(require("../../images/none.PNG"));
+
+var _blackBeanie = _interopRequireDefault(require("../../images/black-beanie.PNG"));
+
+var _orangeBeanie = _interopRequireDefault(require("../../images/orange-beanie.PNG"));
+
+var _beigeBeanie = _interopRequireDefault(require("../../images/beige-beanie.PNG"));
+
+var _snapback = _interopRequireDefault(require("../../images/snapback.PNG"));
+
+var _flatCap = _interopRequireDefault(require("../../images/flat-cap.PNG"));
+
+var _headset = _interopRequireDefault(require("../../images/headset.PNG"));
+
+var _solanaHeadband = _interopRequireDefault(require("../../images/solana-headband.PNG"));
+
+var _quitCryptoHat = _interopRequireDefault(require("../../images/quit-crypto-hat.PNG"));
+
+var _devilHorns = _interopRequireDefault(require("../../images/devil-horns.PNG"));
+
+var _bowlCut = _interopRequireDefault(require("../../images/bowl-cut.PNG"));
+
+var _crown = _interopRequireDefault(require("../../images/crown.PNG"));
+
+var _spaceHelmet = _interopRequireDefault(require("../../images/space-helmet.PNG"));
+
+var _keffiyeh = _interopRequireDefault(require("../../images/keffiyeh.PNG"));
+
+var _diamondHeadset = _interopRequireDefault(require("../../images/diamond-headset.PNG"));
+
+var _warBonnet = _interopRequireDefault(require("../../images/war-bonnet.PNG"));
+
+var _superBrain = _interopRequireDefault(require("../../images/super-brain.PNG"));
+
+var _laurelWreath = _interopRequireDefault(require("../../images/laurel-wreath.PNG"));
+
+var _holoHalo = _interopRequireDefault(require("../../images/holo-halo.PNG"));
+
+var _vaderSHelmet = _interopRequireDefault(require("../../images/vader's-helmet.PNG"));
+
+var _samSHair = _interopRequireDefault(require("../../images/sam's-hair.PNG"));
+
+var _peace = _interopRequireDefault(require("../../images/peace.PNG"));
+
+var _coffee = _interopRequireDefault(require("../../images/coffee.PNG"));
+
+var _cash = _interopRequireDefault(require("../../images/cash.PNG"));
+
+var _solanaChain = _interopRequireDefault(require("../../images/solana-chain.PNG"));
+
+var _blueLightSaber = _interopRequireDefault(require("../../images/blue-light-saber.PNG"));
+
+var _redLightSaber = _interopRequireDefault(require("../../images/red-light-saber.PNG"));
+
+var _cape = _interopRequireDefault(require("../../images/cape.PNG"));
+
+var _btcChain = _interopRequireDefault(require("../../images/btc-chain.PNG"));
+
+var _jetpack = _interopRequireDefault(require("../../images/jetpack.PNG"));
+
+var _nerdChain = _interopRequireDefault(require("../../images/nerd-chain.PNG"));
+
+var _holoWings = _interopRequireDefault(require("../../images/holo-wings.PNG"));
+
+var _holoChart = _interopRequireDefault(require("../../images/holo-chart.PNG"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -45090,68 +45601,703 @@ function Main() {
     //setting api categories data
     var categ = [{
       id: "32344",
-      name: "face",
-      description: "This is face category for the face of user.",
+      name: "background",
+      description: "This is background category for the background of user.",
       attributes: [{
-        name: "sunglasses",
-        img: "https://toppng.com/uploads/preview/sunglasses-vector-gangster-cartoon-sunglasses-11563023582m2onhravmx.png",
-        rarity_no: "400",
-        rarity: "3,960"
+        name: "salmon",
+        img: _salmon.default,
+        rarity_no: "572",
+        rarity: "5,663"
       }, {
-        name: "nerd viper",
-        img: "https://toppng.com/uploads/preview/the-night-falls-black-and-purple-pit-viper-sunglasses-sunglasses-11563034992xclldfrim1.png",
-        rarity_no: "520",
-        rarity: "3,227"
+        name: "navy",
+        img: _navy.default,
+        rarity_no: "572",
+        rarity: "5,663"
       }, {
-        name: "solana summer",
-        img: "https://icon2.cleanpng.com/20180220/cbe/kisspng-goggles-sunglasses-vector-sunglasses-5a8cf29849f683.953114341519186584303.jpg",
-        rarity_no: "60",
-        rarity: "2,970"
+        name: "sky blue",
+        img: _skyBlue.default,
+        rarity_no: "572",
+        rarity: "5,663"
       }, {
-        name: "black shades",
-        img: "https://www.freeiconspng.com/thumbs/deal-with-it-glasses-png/deal-with-it-glasses-png-clip-art-3.png",
-        rarity_no: "18",
-        rarity: "2,231"
+        name: "lemon",
+        img: _lemon.default,
+        rarity_no: "572",
+        rarity: "5,663"
+      }, {
+        name: "pale green",
+        img: _paleGreen.default,
+        rarity_no: "572",
+        rarity: "5,663"
+      }, {
+        name: "dark green",
+        img: _darkGreen.default,
+        rarity_no: "572",
+        rarity: "5,663"
+      }, {
+        name: "pearl",
+        img: _pearl.default,
+        rarity_no: "571",
+        rarity: "5,653"
+      }, {
+        name: "chocolate",
+        img: _chocolate.default,
+        rarity_no: "571",
+        rarity: "5,653"
+      }, {
+        name: "black",
+        img: _black.default,
+        rarity_no: "571",
+        rarity: "5,653"
+      }, {
+        name: "dim grey",
+        img: _dimGrey.default,
+        rarity_no: "571",
+        rarity: "5,653"
+      }, {
+        name: "gainsboro",
+        img: _gainsboro.default,
+        rarity_no: "571",
+        rarity: "5,653"
+      }, {
+        name: "beige",
+        img: _beige.default,
+        rarity_no: "571",
+        rarity: "5,653"
+      }, {
+        name: "violet",
+        img: _violet.default,
+        rarity_no: "571",
+        rarity: "5,653"
+      }, {
+        name: "coral",
+        img: _coral.default,
+        rarity_no: "571",
+        rarity: "5,653"
+      }, {
+        name: "water",
+        img: _water.default,
+        rarity_no: "500",
+        rarity: "4,950"
+      }, {
+        name: "fire",
+        img: _fire.default,
+        rarity_no: "500",
+        rarity: "4,950"
+      }, {
+        name: "fire",
+        img: _fire.default,
+        rarity_no: "500",
+        rarity: "4,950"
+      }, {
+        name: "solana",
+        img: _solana.default,
+        rarity_no: "500",
+        rarity: "4,950"
+      }, {
+        name: "dawn",
+        img: _dawn.default,
+        rarity_no: "500",
+        rarity: "4,950"
+      }, {
+        name: "nerd face",
+        img: _nerdFace.default,
+        rarity_no: "55",
+        rarity: "0,545"
+      }, {
+        name: "deep space",
+        img: _deepSpace.default,
+        rarity_no: "15",
+        rarity: "0,149"
+      }, {
+        name: "matrix",
+        img: _matrix.default,
+        rarity_no: "12",
+        rarity: "0,119"
+      }, {
+        name: "trading setup",
+        img: _tradingSetup.default,
+        rarity_no: "9",
+        rarity: "0,089"
+      }, {
+        name: "holo sphere",
+        img: _holoSphere.default,
+        rarity_no: "6",
+        rarity: "0,059"
+      }, {
+        name: "graffiti",
+        img: _graffiti.default,
+        rarity_no: "3",
+        rarity: "0,030"
+      }, {
+        name: "pizza4Life",
+        img: _pizza4life.default,
+        rarity_no: "1",
+        rarity: "0,010"
       }]
     }, {
       id: "2343",
       name: "skin",
       description: "This is skin category for the user skin.",
       attributes: [{
-        name: "cyborg",
-        img: "https://anima-uploads.s3.amazonaws.com/projects/6134c77d71a17ed2759e6e65/releases/61363b45e87edf415320f929/img/unbenannt-2-zeichenfla-che-1-1@2x.png",
-        rarity_no: "1",
-        rarity: "3,245"
+        name: "light blonde",
+        img: _lightBlonde.default,
+        rarity_no: "3.577",
+        rarity: "35,412"
+      }, {
+        name: "light black",
+        img: _lightBlack.default,
+        rarity_no: "3.577",
+        rarity: "35,412"
+      }, {
+        name: "mid",
+        img: _mid.default,
+        rarity_no: "1.230",
+        rarity: "12,177"
+      }, {
+        name: "dark",
+        img: _dark.default,
+        rarity_no: "1.230",
+        rarity: "12,177"
+      }, {
+        name: "puberty",
+        img: _puberty.default,
+        rarity_no: "234",
+        rarity: "2,317"
+      }, {
+        name: "phantom",
+        img: _phantom.default,
+        rarity_no: "99",
+        rarity: "0,980"
       }, {
         name: "zombie",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUzo8xOYYCuXR7Haj5rfk_8eUUPFSszZYXjg&usqp=CAU",
-        rarity_no: "1005",
-        rarity: "2,542"
+        img: _zombie.default,
+        rarity_no: "99",
+        rarity: "0,980"
+      }, {
+        name: "cyborg",
+        img: _cyborg.default,
+        rarity_no: "28",
+        rarity: "0,277"
       }, {
         name: "intersteller",
-        img: "https://e7.pngegg.com/pngimages/587/764/png-clipart-q-version-of-the-interstellar-figures-us-man-american-comics-thumbnail.png",
-        rarity_no: "600",
-        rarity: "1,002"
+        img: _intersteller.default,
+        rarity_no: "18",
+        rarity: "0,178"
+      }, {
+        name: "slime",
+        img: _slime.default,
+        rarity_no: "8",
+        rarity: "0,079"
+      }, {
+        name: "ai",
+        img: _ai.default,
+        rarity_no: "1",
+        rarity: "0,010"
       }]
     }, {
       id: "3234",
-      name: "mouth",
-      description: "This is mouth category for the mouth of user.",
+      name: "apparel",
+      description: "This is apparel category for the user.",
       attributes: [{
-        name: "smiley",
-        img: "https://c.neh.tw/thumb/f/720/comdlpng6950199.jpg",
+        name: "zip hoodie",
+        img: _zipHoodie.default,
+        rarity_no: "687",
+        rarity: "6,801"
+      }, {
+        name: "white Tshirt",
+        img: _whiteTshirt.default,
+        rarity_no: "682",
+        rarity: "6,752"
+      }, {
+        name: "black Tshirt",
+        img: _blackTshirt.default,
+        rarity_no: "682",
+        rarity: "6,752"
+      }, {
+        name: "white Shirt",
+        img: _whiteShirt.default,
+        rarity_no: "682",
+        rarity: "6,752"
+      }, {
+        name: "suit vest",
+        img: _suitVest.default,
+        rarity_no: "682",
+        rarity: "6,752"
+      }, {
+        name: "sttng uniform",
+        img: _sttngUniform.default,
+        rarity_no: "682",
+        rarity: "6,752"
+      }, {
+        name: "ma-1",
+        img: _ma.default,
+        rarity_no: "682",
+        rarity: "6,752"
+      }, {
+        name: "buffer jacket",
+        img: _bufferJacket.default,
+        rarity_no: "682",
+        rarity: "6,752"
+      }, {
+        name: "wizard robe",
+        img: _wizardRobe.default,
+        rarity_no: "682",
+        rarity: "6,752"
+      }, {
+        name: "college jacket",
+        img: _collegeJacket.default,
+        rarity_no: "682",
+        rarity: "6,752"
+      }, {
+        name: "plaid shirt",
+        img: _plaidShirt.default,
+        rarity_no: "682",
+        rarity: "6,752"
+      }, {
+        name: "denim jacket",
+        img: _denimJacket.default,
+        rarity_no: "615",
+        rarity: "6,089"
+      }, {
+        name: "track suit",
+        img: _tracksuit.default,
+        rarity_no: "543",
+        rarity: "5,376"
+      }, {
+        name: "turtle neck",
+        img: _turtleneck.default,
+        rarity_no: "258",
+        rarity: "2,554"
+      }, {
+        name: "tie die shirt",
+        img: _tieDieTshirt.default,
+        rarity_no: "203",
+        rarity: "2,010"
+      }, {
+        name: "solana uniform",
+        img: _solanaUniform.default,
+        rarity_no: "189",
+        rarity: "1,871"
+      }, {
+        name: "hawaiian shirt",
+        img: _hawaiianShirt.default,
+        rarity_no: "176",
+        rarity: "1,742"
+      }, {
+        name: "b-ball jersey",
+        img: _bBallJersey.default,
+        rarity_no: "150",
+        rarity: "1,485"
+      }, {
+        name: "soccer jersey",
+        img: _soccerJersey.default,
+        rarity_no: "133",
+        rarity: "1,317"
+      }, {
+        name: "biker jacket",
+        img: _bikerJacket.default,
+        rarity_no: "86",
+        rarity: "0,851"
+      }, {
+        name: "slip over",
+        img: _slipOver.default,
+        rarity_no: "72",
+        rarity: "0,713"
+      }, {
+        name: "suit",
+        img: _suit.default,
+        rarity_no: "51",
+        rarity: "0,505"
+      }, {
+        name: "space suit",
+        img: _spaceSuit.default,
+        rarity_no: "35",
+        rarity: "0,347"
+      }, {
+        name: "thobe",
+        img: _thobe.default,
+        rarity_no: "30",
+        rarity: "0,297"
+      }, {
+        name: "caesar",
+        img: _caesar.default,
+        rarity_no: "22",
+        rarity: "0,218"
+      }, {
+        name: "diamond sweatshirt",
+        img: _diamondSweatshirt.default,
+        rarity_no: "16",
+        rarity: "0,158"
+      }, {
+        name: "holo zip hoodie",
+        img: _holoZipHoodie.default,
+        rarity_no: "11",
+        rarity: "0,109"
+      }, {
+        name: "vader's armor",
+        img: _vaderSArmor.default,
+        rarity_no: "3",
+        rarity: "0,030"
+      }, {
+        name: "lava set",
+        img: _lavaSet.default,
+        rarity_no: "1",
+        rarity: "0,010"
+      }]
+    }, {
+      id: "23231",
+      name: "mouth",
+      description: "This is mouth category for the user mouth.",
+      attributes: [{
+        name: "smirk",
+        img: _smirk.default,
+        rarity_no: "2.822",
+        rarity: "27,938"
+      }, {
+        name: "grin",
+        img: _grin.default,
+        rarity_no: "2.822",
+        rarity: "27,938"
+      }, {
+        name: "surprised",
+        img: _surprised.default,
+        rarity_no: "2.822",
+        rarity: "27,938"
+      }, {
+        name: "tongue out",
+        img: _tongueOut.default,
+        rarity_no: "346",
+        rarity: "3,425"
+      }, {
+        name: "braces",
+        img: _braces.default,
+        rarity_no: "312",
+        rarity: "3,089"
+      }, {
+        name: "mustache",
+        img: _mustache.default,
+        rarity_no: "240",
+        rarity: "240"
+      }, {
+        name: "beard",
+        img: _beard.default,
+        rarity_no: "170",
+        rarity: "1,683"
+      }, {
+        name: "send love",
+        img: _sendLove.default,
+        rarity_no: "151",
+        rarity: "1,495"
+      }, {
+        name: "party horn",
+        img: _partyHorn.default,
+        rarity_no: "124",
+        rarity: "1,228"
+      }, {
+        name: "red bandana",
+        img: _redBandana.default,
+        rarity_no: "84",
+        rarity: "0,832"
+      }, {
+        name: "blue bandana",
+        img: _blueBandana.default,
+        rarity_no: "84",
+        rarity: "0,832"
+      }, {
+        name: "cuban cigar",
+        img: _cubanCigar.default,
+        rarity_no: "55",
+        rarity: "0,545"
+      }, {
+        name: "vampire teeth",
+        img: _vampireTeeth.default,
+        rarity_no: "36",
+        rarity: "0,356"
+      }, {
+        name: "joker",
+        img: _joker.default,
+        rarity_no: "21",
+        rarity: "0,208"
+      }, {
+        name: "diamond grillz",
+        img: _diamondGrillz.default,
+        rarity_no: "13 ",
+        rarity: "0,129"
+      }, {
+        name: "elon musk",
+        img: _elonMusk.default,
+        rarity_no: "1 ",
+        rarity: "0,010"
+      }]
+    }, {
+      id: "2323",
+      name: "face",
+      description: "This is face category for the user face.",
+      attributes: [{
+        name: "black",
+        img: _blackFace.default,
+        rarity_no: "2.009",
+        rarity: "19,889"
+      }, {
+        name: "brown",
+        img: _brownFace.default,
+        rarity_no: "2.007",
+        rarity: "19,869"
+      }, {
+        name: "blue",
+        img: _blueFace.default,
+        rarity_no: "2.007",
+        rarity: "19,869"
+      }, {
+        name: "green",
+        img: _greenFace.default,
+        rarity_no: "2.007",
+        rarity: "19,869"
+      }, {
+        name: "sunglasses",
+        img: _sunglasses.default,
+        rarity_no: "400",
+        rarity: "3,960"
+      }, {
+        name: "nerd viper",
+        img: _nerdViper.default,
+        rarity_no: "326",
+        rarity: "3,227"
+      }, {
+        name: "solana viper",
+        img: _solanaSummer.default,
+        rarity_no: "300",
+        rarity: "2,970"
+      }, {
+        name: "freckles",
+        img: _freckles.default,
+        rarity_no: "289",
+        rarity: "2,861"
+      }, {
+        name: "exhausted",
+        img: _exhausted.default,
+        rarity_no: "233",
+        rarity: "2,307"
+      }, {
+        name: "nerd glasses",
+        img: _nerdGlasses.default,
+        rarity_no: "152",
+        rarity: "1,505"
+      }, {
+        name: "future",
+        img: _future.default,
+        rarity_no: "111",
+        rarity: "1,099"
+      }, {
+        name: "psycho",
+        img: _psycho.default,
+        rarity_no: "90",
+        rarity: "0,891"
+      }, {
+        name: "diamond",
+        img: _diamondFace.default,
+        rarity_no: "78",
+        rarity: "0,772"
+      }, {
+        name: "laser",
+        img: _laserFace.default,
+        rarity_no: "50",
+        rarity: "0,495"
+      }, {
+        name: "bitcoin",
+        img: _bitcoin.default,
+        rarity_no: "27",
+        rarity: "0,267"
+      }, {
+        name: "rainbow",
+        img: _rainbow.default,
+        rarity_no: "14",
+        rarity: "0,139"
+      }, {
+        name: "onyx",
+        img: _onyx.default,
+        rarity_no: "1",
+        rarity: "0,010"
+      }]
+    }, {
+      id: "2323",
+      name: "head",
+      description: "This is head category for the user head.",
+      attributes: [{
+        name: "none",
+        img: _none.default,
+        rarity_no: "1.569",
+        rarity: "15,533"
+      }, {
+        name: "black beanie",
+        img: _blackBeanie.default,
+        rarity_no: "1.567",
+        rarity: "15,513"
+      }, {
+        name: "orange beanie",
+        img: _orangeBeanie.default,
+        rarity_no: "1.567",
+        rarity: "15,513"
+      }, {
+        name: "beige beanie",
+        img: _beigeBeanie.default,
+        rarity_no: "1.567",
+        rarity: "15,513"
+      }, {
+        name: "snap back",
+        img: _snapback.default,
+        rarity_no: "1.567",
+        rarity: "15,513"
+      }, {
+        name: "flat cap",
+        img: _flatCap.default,
+        rarity_no: "1.567",
+        rarity: "15,513"
+      }, {
+        name: "headset",
+        img: _headset.default,
+        rarity_no: "150",
+        rarity: "1,485"
+      }, {
+        name: "solana headband",
+        img: _solanaHeadband.default,
+        rarity_no: "120",
+        rarity: "1,188"
+      }, {
+        name: "quit crypto hat",
+        img: _quitCryptoHat.default,
+        rarity_no: "101",
+        rarity: "1,000"
+      }, {
+        name: "devil horns",
+        img: _devilHorns.default,
+        rarity_no: "66",
+        rarity: "0,653"
+      }, {
+        name: "bowl cut",
+        img: _bowlCut.default,
+        rarity_no: "63",
+        rarity: "0,624"
+      }, {
+        name: "crown",
+        img: _crown.default,
+        rarity_no: "50",
+        rarity: "0,495"
+      }, {
+        name: "space helmet",
+        img: _spaceHelmet.default,
+        rarity_no: "35",
+        rarity: "0,347"
+      }, {
+        name: "keffiyeh",
+        img: _keffiyeh.default,
+        rarity_no: "30",
+        rarity: "0,297"
+      }, {
+        name: "diamond headset",
+        img: _diamondHeadset.default,
+        rarity_no: "27",
+        rarity: "0,267"
+      }, {
+        name: "war bonnet",
+        img: _warBonnet.default,
+        rarity_no: "22",
+        rarity: "0,218"
+      }, {
+        name: "super brain",
+        img: _superBrain.default,
+        rarity_no: "16",
+        rarity: "0,158"
+      }, {
+        name: "laurel wreath",
+        img: _laurelWreath.default,
+        rarity_no: "9",
+        rarity: "0,158"
+      }, {
+        name: "holo halo",
+        img: _holoHalo.default,
         rarity_no: "4",
-        rarity: "2,222"
+        rarity: "0,040"
       }, {
-        name: "sad",
-        img: "https://www.pngfind.com/pngs/m/6-66546_cartoon-lips-mouth-sad-mouth-clip-art-hd.png",
-        rarity_no: "24",
-        rarity: "456"
+        name: "vader's helmet",
+        img: _vaderSHelmet.default,
+        rarity_no: "3",
+        rarity: "0,030"
       }, {
-        name: "laugh",
-        img: "https://p.kindpng.com/picc/s/2-21709_mouth-lip-tooth-illustration-smile-mouth-cartoon-hd.png",
-        rarity_no: "160",
-        rarity: "100"
+        name: "sam's hair",
+        img: _samSHair.default,
+        rarity_no: "1",
+        rarity: "0,010"
+      }]
+    }, {
+      id: "232233",
+      name: "extra",
+      description: "This is extra category for extra traits.",
+      attributes: [{
+        name: "none",
+        img: _none.default,
+        rarity_no: "8283",
+        rarity: "82,002"
+      }, {
+        name: "peace",
+        img: _peace.default,
+        rarity_no: "722",
+        rarity: "7,148"
+      }, {
+        name: "coffee",
+        img: _coffee.default,
+        rarity_no: "426",
+        rarity: "4,217"
+      }, {
+        name: "cash",
+        img: _cash.default,
+        rarity_no: "308",
+        rarity: "3,049"
+      }, {
+        name: "solana chain",
+        img: _solanaChain.default,
+        rarity_no: "182",
+        rarity: "1,802"
+      }, {
+        name: "blue lightsaber",
+        img: _blueLightSaber.default,
+        rarity_no: "61",
+        rarity: "0,604"
+      }, {
+        name: "red lightsaber",
+        img: _redLightSaber.default,
+        rarity_no: "61",
+        rarity: "0,604"
+      }, {
+        name: "cape",
+        img: _cape.default,
+        rarity_no: "27",
+        rarity: "0,267"
+      }, {
+        name: "btc chain",
+        img: _btcChain.default,
+        rarity_no: "12",
+        rarity: "0,119"
+      }, {
+        name: "jet pack",
+        img: _jetpack.default,
+        rarity_no: "9",
+        rarity: "0,089"
+      }, {
+        name: "nerd chain",
+        img: _nerdChain.default,
+        rarity_no: "6",
+        rarity: "0,059"
+      }, {
+        name: "holo wings",
+        img: _holoWings.default,
+        rarity_no: "3",
+        rarity: "0,030"
+      }, {
+        name: "holo chart",
+        img: _holoChart.default,
+        rarity_no: "1",
+        rarity: "0,010"
       }]
     }];
     dispatch((0, _general.SetCategArr)(categ));
@@ -45332,7 +46478,7 @@ var desktopData = {
   cardTypeMainTweetDarkModeFalseYourTProps: cardTypeMainTweetDarkModeFalseYourTData,
   fOOTERProps: fOOTERData
 };
-},{"react":"node_modules/react/index.js","./Main.css":"components/Main/Main.css","../../redux/reducers/general":"redux/reducers/general.js","react-redux":"node_modules/react-redux/es/index.js","../Desktop":"components/Desktop/index.jsx"}],"node_modules/process/browser.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./Main.css":"components/Main/Main.css","../../redux/reducers/general":"redux/reducers/general.js","react-redux":"node_modules/react-redux/es/index.js","../Desktop":"components/Desktop/index.jsx","../../images/salmon.PNG":"images/salmon.PNG","../../images/navy.PNG":"images/navy.PNG","../../images/sky-blue.PNG":"images/sky-blue.PNG","../../images/lemon.PNG":"images/lemon.PNG","../../images/pale-green.PNG":"images/pale-green.PNG","../../images/dark-green.PNG":"images/dark-green.PNG","../../images/pearl.PNG":"images/pearl.PNG","../../images/chocolate.PNG":"images/chocolate.PNG","../../images/black.PNG":"images/black.PNG","../../images/dim-grey.PNG":"images/dim-grey.PNG","../../images/gainsboro.PNG":"images/gainsboro.PNG","../../images/beige.PNG":"images/beige.PNG","../../images/violet.PNG":"images/violet.PNG","../../images/coral.PNG":"images/coral.PNG","../../images/water.PNG":"images/water.PNG","../../images/fire.PNG":"images/fire.PNG","../../images/solana.PNG":"images/solana.PNG","../../images/dawn.PNG":"images/dawn.PNG","../../images/nerd-face.PNG":"images/nerd-face.PNG","../../images/deep-space.PNG":"images/deep-space.PNG","../../images/matrix.PNG":"images/matrix.PNG","../../images/trading-setup.PNG":"images/trading-setup.PNG","../../images/holo-sphere.PNG":"images/holo-sphere.PNG","../../images/graffiti.PNG":"images/graffiti.PNG","../../images/pizza4life.PNG":"images/pizza4life.PNG","../../images/light-blonde.PNG":"images/light-blonde.PNG","../../images/light-black.PNG":"images/light-black.PNG","../../images/mid.PNG":"images/mid.PNG","../../images/dark.PNG":"images/dark.PNG","../../images/puberty.PNG":"images/puberty.PNG","../../images/phantom.PNG":"images/phantom.PNG","../../images/zombie.PNG":"images/zombie.PNG","../../images/cyborg.PNG":"images/cyborg.PNG","../../images/intersteller.PNG":"images/intersteller.PNG","../../images/slime.PNG":"images/slime.PNG","../../images/ai.PNG":"images/ai.PNG","../../images/zip-hoodie.PNG":"images/zip-hoodie.PNG","../../images/white-tshirt.PNG":"images/white-tshirt.PNG","../../images/black-tshirt.PNG":"images/black-tshirt.PNG","../../images/white-shirt.PNG":"images/white-shirt.PNG","../../images/suit-vest.PNG":"images/suit-vest.PNG","../../images/sttng-uniform.PNG":"images/sttng-uniform.PNG","../../images/ma-1.PNG":"images/ma-1.PNG","../../images/buffer-jacket.PNG":"images/buffer-jacket.PNG","../../images/wizard-robe.PNG":"images/wizard-robe.PNG","../../images/college-jacket.PNG":"images/college-jacket.PNG","../../images/plaid-shirt.PNG":"images/plaid-shirt.PNG","../../images/denim-jacket.PNG":"images/denim-jacket.PNG","../../images/tracksuit.PNG":"images/tracksuit.PNG","../../images/turtleneck.PNG":"images/turtleneck.PNG","../../images/tie-die-tshirt.PNG":"images/tie-die-tshirt.PNG","../../images/solana-uniform.PNG":"images/solana-uniform.PNG","../../images/hawaiian-shirt.PNG":"images/hawaiian-shirt.PNG","../../images/b-ball-jersey.PNG":"images/b-ball-jersey.PNG","../../images/soccer-jersey.PNG":"images/soccer-jersey.PNG","../../images/biker-jacket.PNG":"images/biker-jacket.PNG","../../images/slip-over.PNG":"images/slip-over.PNG","../../images/suit.PNG":"images/suit.PNG","../../images/space-suit.PNG":"images/space-suit.PNG","../../images/thobe.PNG":"images/thobe.PNG","../../images/caesar.PNG":"images/caesar.PNG","../../images/diamond-sweatshirt.PNG":"images/diamond-sweatshirt.PNG","../../images/holo-zip-hoodie.PNG":"images/holo-zip-hoodie.PNG","../../images/vader's-armor.PNG":"images/vader's-armor.PNG","../../images/lava-set.PNG":"images/lava-set.PNG","../../images/smirk.PNG":"images/smirk.PNG","../../images/grin.PNG":"images/grin.PNG","../../images/surprised.PNG":"images/surprised.PNG","../../images/tongue-out.PNG":"images/tongue-out.PNG","../../images/braces.PNG":"images/braces.PNG","../../images/mustache.PNG":"images/mustache.PNG","../../images/beard.PNG":"images/beard.PNG","../../images/send-love.PNG":"images/send-love.PNG","../../images/party-horn.PNG":"images/party-horn.PNG","../../images/red-bandana.PNG":"images/red-bandana.PNG","../../images/blue-bandana.PNG":"images/blue-bandana.PNG","../../images/cuban-cigar.PNG":"images/cuban-cigar.PNG","../../images/vampire-teeth.PNG":"images/vampire-teeth.PNG","../../images/joker.PNG":"images/joker.PNG","../../images/diamond-grillz.PNG":"images/diamond-grillz.PNG","../../images/elon-musk.PNG":"images/elon-musk.PNG","../../images/black-face.PNG":"images/black-face.PNG","../../images/brown-face.PNG":"images/brown-face.PNG","../../images/blue-face.PNG":"images/blue-face.PNG","../../images/green-face.PNG":"images/green-face.PNG","../../images/sunglasses.PNG":"images/sunglasses.PNG","../../images/nerd-viper.PNG":"images/nerd-viper.PNG","../../images/solana-summer.PNG":"images/solana-summer.PNG","../../images/freckles.PNG":"images/freckles.PNG","../../images/exhausted.PNG":"images/exhausted.PNG","../../images/nerd-glasses.PNG":"images/nerd-glasses.PNG","../../images/future.PNG":"images/future.PNG","../../images/psycho.PNG":"images/psycho.PNG","../../images/diamond-face.PNG":"images/diamond-face.PNG","../../images/laser-face.PNG":"images/laser-face.PNG","../../images/bitcoin.PNG":"images/bitcoin.PNG","../../images/rainbow.PNG":"images/rainbow.PNG","../../images/onyx.PNG":"images/onyx.PNG","../../images/none.PNG":"images/none.PNG","../../images/black-beanie.PNG":"images/black-beanie.PNG","../../images/orange-beanie.PNG":"images/orange-beanie.PNG","../../images/beige-beanie.PNG":"images/beige-beanie.PNG","../../images/snapback.PNG":"images/snapback.PNG","../../images/flat-cap.PNG":"images/flat-cap.PNG","../../images/headset.PNG":"images/headset.PNG","../../images/solana-headband.PNG":"images/solana-headband.PNG","../../images/quit-crypto-hat.PNG":"images/quit-crypto-hat.PNG","../../images/devil-horns.PNG":"images/devil-horns.PNG","../../images/bowl-cut.PNG":"images/bowl-cut.PNG","../../images/crown.PNG":"images/crown.PNG","../../images/space-helmet.PNG":"images/space-helmet.PNG","../../images/keffiyeh.PNG":"images/keffiyeh.PNG","../../images/diamond-headset.PNG":"images/diamond-headset.PNG","../../images/war-bonnet.PNG":"images/war-bonnet.PNG","../../images/super-brain.PNG":"images/super-brain.PNG","../../images/laurel-wreath.PNG":"images/laurel-wreath.PNG","../../images/holo-halo.PNG":"images/holo-halo.PNG","../../images/vader's-helmet.PNG":"images/vader's-helmet.PNG","../../images/sam's-hair.PNG":"images/sam's-hair.PNG","../../images/peace.PNG":"images/peace.PNG","../../images/coffee.PNG":"images/coffee.PNG","../../images/cash.PNG":"images/cash.PNG","../../images/solana-chain.PNG":"images/solana-chain.PNG","../../images/blue-light-saber.PNG":"images/blue-light-saber.PNG","../../images/red-light-saber.PNG":"images/red-light-saber.PNG","../../images/cape.PNG":"images/cape.PNG","../../images/btc-chain.PNG":"images/btc-chain.PNG","../../images/jetpack.PNG":"images/jetpack.PNG","../../images/nerd-chain.PNG":"images/nerd-chain.PNG","../../images/holo-wings.PNG":"images/holo-wings.PNG","../../images/holo-chart.PNG":"images/holo-chart.PNG"}],"node_modules/process/browser.js":[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {}; // cached from whatever global is present so that test runners that stub it
@@ -48069,7 +49215,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55003" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54618" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

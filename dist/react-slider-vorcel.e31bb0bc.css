@@ -1556,7 +1556,7 @@ li.active {
   width: 130px;
   line-height: 180px;
   left: 520px;
-  margin-top: 150px;
+  margin-top: 60px;
   filter: blur(6px);
   display: flex;
   align-items: center;
@@ -1581,7 +1581,7 @@ li.active {
   height: 180px;
   width: 130px;
   line-height: 180px;
-  margin-top: 150px;
+  margin-top: 60px;
   left: 160px;
   filter: blur(6px);
   display: flex;

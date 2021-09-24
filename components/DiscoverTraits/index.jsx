@@ -65,18 +65,7 @@ const DiscoverTraits = ({
         setRaritty(gg.rarity);
         setRarittyNo(gg.rarity_no);
         dispatch(setActiveIndex());
-      } else if (attrs) {
-        // console.log("attrs", attrs);
-        // console.log("active Index", activeIndex);
-        // console.log("array length", attrs.length - 1);
-
-        var gg = attrs.at(activeIndex);
-
-        setDesc(gg.desc);
-        setName(gg.name);
-        setRaritty(gg.rarity);
-        setRarittyNo(gg.rarity_no);
-      } else if (activeIndex) {
+      } else {
         var gg = attrs.at(activeIndex);
 
         setDesc(gg.desc);
@@ -120,15 +109,15 @@ const DiscoverTraits = ({
               ? "rec5-active"
               : "" || (rarittyNo > 16 && rarittyNo <= 50)
               ? "rec7-active"
-              : "" || (rarittyNo > 1 && rarittyNo <= 16)
+              : "" || (Math.round(rarittyNo) >= 2 && rarittyNo <= 16)
               ? "rec8-active"
-              : "" || rarittyNo === 1
+              : "" || Math.round(rarittyNo) <= 1
               ? "rec9-active"
               : ""
           }`}
         >
           <div className="cyborg sfprodisplay-heavy-normal-white-14px">
-            {name}
+            {name.replace(/(^\w|\s\w)/g, (m) => m.toUpperCase())}
           </div>
           <div className="have-this-trait sfprodisplay-regular-normal-white-14px">
             {raritty}%
