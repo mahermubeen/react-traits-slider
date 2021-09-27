@@ -45684,11 +45684,6 @@ function Main() {
         rarity_no: "500",
         rarity: "4,950"
       }, {
-        name: "fire",
-        img: _fire.default,
-        rarity_no: "500",
-        rarity: "4,950"
-      }, {
         name: "solana",
         img: _solana.default,
         rarity_no: "500",
@@ -45741,37 +45736,37 @@ function Main() {
       attributes: [{
         name: "light blonde",
         img: _lightBlonde.default,
-        rarity_no: "3.577",
+        rarity_no: "3577",
         rarity: "35,412"
       }, {
         name: "light black",
         img: _lightBlack.default,
-        rarity_no: "3.577",
+        rarity_no: "3577",
         rarity: "35,412"
       }, {
         name: "mid",
         img: _mid.default,
-        rarity_no: "1.230",
+        rarity_no: "1230",
         rarity: "12,177"
       }, {
         name: "dark",
         img: _dark.default,
-        rarity_no: "1.230",
+        rarity_no: "1230",
         rarity: "12,177"
       }, {
         name: "puberty",
         img: _puberty.default,
-        rarity_no: "234",
+        rarity_no: "134",
         rarity: "2,317"
       }, {
         name: "phantom",
         img: _phantom.default,
-        rarity_no: "99",
+        rarity_no: "199",
         rarity: "0,980"
       }, {
         name: "zombie",
         img: _zombie.default,
-        rarity_no: "99",
+        rarity_no: "199",
         rarity: "0,980"
       }, {
         name: "cyborg",
@@ -45866,47 +45861,47 @@ function Main() {
       }, {
         name: "turtle neck",
         img: _turtleneck.default,
-        rarity_no: "258",
+        rarity_no: "58",
         rarity: "2,554"
       }, {
         name: "tie die shirt",
         img: _tieDieTshirt.default,
-        rarity_no: "203",
+        rarity_no: "103",
         rarity: "2,010"
       }, {
         name: "solana uniform",
         img: _solanaUniform.default,
-        rarity_no: "189",
+        rarity_no: "148",
         rarity: "1,871"
       }, {
         name: "hawaiian shirt",
         img: _hawaiianShirt.default,
-        rarity_no: "176",
+        rarity_no: "136",
         rarity: "1,742"
       }, {
         name: "b-ball jersey",
         img: _bBallJersey.default,
-        rarity_no: "150",
+        rarity_no: "151",
         rarity: "1,485"
       }, {
         name: "soccer jersey",
         img: _soccerJersey.default,
-        rarity_no: "133",
+        rarity_no: "163",
         rarity: "1,317"
       }, {
         name: "biker jacket",
         img: _bikerJacket.default,
-        rarity_no: "86",
+        rarity_no: "186",
         rarity: "0,851"
       }, {
         name: "slip over",
         img: _slipOver.default,
-        rarity_no: "72",
+        rarity_no: "172",
         rarity: "0,713"
       }, {
         name: "suit",
         img: _suit.default,
-        rarity_no: "51",
+        rarity_no: "159",
         rarity: "0,505"
       }, {
         name: "space suit",
@@ -45926,7 +45921,7 @@ function Main() {
       }, {
         name: "diamond sweatshirt",
         img: _diamondSweatshirt.default,
-        rarity_no: "16",
+        rarity_no: "28",
         rarity: "0,158"
       }, {
         name: "holo zip hoodie",
@@ -49215,7 +49210,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54618" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50923" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
