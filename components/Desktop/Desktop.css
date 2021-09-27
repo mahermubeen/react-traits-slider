@@ -159,7 +159,6 @@
 .overlap-group10 {
   align-items: flex-start;
   background-size: 100% 100%;
-  display: flex;
   min-width: 1440px;
   padding: 0 127px;
 }
@@ -170,6 +169,7 @@
   width: 1184px;
   opacity: 0;
   transform: scale(1.1);
+  padding: 80px 20px 230px 125px;
 }
 
 .traits.animate-enter3 {
@@ -178,15 +178,19 @@
   transform: scale(1.1);
 }
 
-.discover-our-traits {
+/* .discover-our-traits {
   left: 126px;
   letter-spacing: 0;
   position: absolute;
   top: 68px;
-}
+} */
 
 .frame-18 {
-  align-items: flex-start;
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  /* align-items: flex-start;
   display: flex;
   height: 353px;
   justify-content: flex-end;
@@ -194,15 +198,19 @@
   min-width: 1184px;
   padding: 0 120px;
   position: absolute;
-  top: 135px;
+  top: 135px; */
 }
 
 .overlap-group {
-  height: 373px;
-  margin-left: 130px;
+  height: 380px;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+  /* margin-left: 130px;
   margin-top: -16px;
-  position: relative;
-  width: 536px;
+  position: relative; */
+  width: 540px;
 }
 
 .x2-zeichenflache-1-1 {
@@ -249,20 +257,20 @@
 } */
 
 .frame-17 {
-  align-items: center;
   background-color: var(--electric-violet);
   border-radius: 20px;
   box-shadow: 0px 4px 20px #8000ff54;
   display: flex;
-  height: 37px;
-  justify-content: flex-end;
+  height: 37px; 
+  /* justify-content: flex-end;
   left: 118px;
   min-width: 300px;
-  padding: 0 18px;
   position: absolute;
-  top: 332px;
+  top: 332px;  */
   align-items: center;
+  padding: 0 18px;
   justify-content: space-between;
+  margin: 0 120px;
 }
 
 .cyborg {

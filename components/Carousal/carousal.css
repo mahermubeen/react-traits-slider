@@ -1,26 +1,33 @@
 #carousel {
-  position: absolute;
-  height: 300px;
-  width: 490px;
-  margin: 0 auto;
+  /* position: absolute; */
+  height: 325px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin: 0 auto;
   left: 0;
   right: 0;
   top: 4%;
-  bottom: 0;
+  bottom: 0; */
   overflow: hidden;
 }
 #carousel span {
   position: absolute;
-  left: -157px;
+  left: -12px;
+  top: 100px;
+  height: 326px;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .arrow {
-  position: absolute;
   width: 33px;
   height: 43px;
-  cursor: pointer;
-  margin-top: 130px;
   overflow: hidden;
+  cursor: pointer;
 }
 .arrow .layer-2,
 .arrow .layer-3 {
@@ -32,14 +39,16 @@
 }
 
 .arrow-right {
-  right: 45px;
+  /* right: 45px; */
+  margin-right: 65px;
 }
 .arrow-right .layer-3 {
   left: -26px;
 }
 
 .arrow-left {
-  left: 45px;
+  /* left: 45px; */
+  margin-left: 60px;
 }
 .arrow-left .layer-2 {
   left: -20px;
@@ -75,11 +84,9 @@
 }
 
 .level-1 {
-  height: 180px;
-  width: 130px;
-  line-height: 180px;
-  left: 520px;
-  margin-top: 60px;
+  height: 100px;
+  width: 120px;
+  left: 410px;
   filter: blur(6px);
   display: flex;
   align-items: center;
@@ -91,7 +98,8 @@
   width: 300px;
   line-height: 198px;
   background-color: #5b0cb799;
-  left: 252px;
+  left: 130px;
+  bottom: 103px;
   z-index: 1;
   border-radius: 16px;
   opacity: 0.9;
@@ -101,11 +109,9 @@
 }
 
 .level1 {
-  height: 180px;
-  width: 130px;
-  line-height: 180px;
-  margin-top: 60px;
-  left: 160px;
+  height: 100px;
+  width: 120px;
+  left: 30px;
   filter: blur(6px);
   display: flex;
   align-items: center;
