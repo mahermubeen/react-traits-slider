@@ -45037,268 +45037,268 @@ function Desktop(props) {
 
 var _default = Desktop;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../LOGO":"components/LOGO/index.jsx","../NAVLINK":"components/NAVLINK/index.jsx","../NAVLINK2":"components/NAVLINK2/index.jsx","../Frame13":"components/Frame13/index.jsx","../Property1Default":"components/Property1Default/index.jsx","../Property1Variant3":"components/Property1Variant3/index.jsx","../Property1Variant2":"components/Property1Variant2/index.jsx","../DiscoverTraits":"components/DiscoverTraits/index.jsx","../Frame38":"components/Frame38/index.jsx","../CardTypeMainTweetDarkModeFalseYourT":"components/CardTypeMainTweetDarkModeFalseYourT/index.jsx","../FOOTER":"components/FOOTER/index.jsx","./Desktop.css":"components/Desktop/Desktop.css","../../redux/reducers/general":"redux/reducers/general.js","react-redux":"node_modules/react-redux/es/index.js"}],"images/salmon.PNG":[function(require,module,exports) {
-module.exports = "/salmon.083d8607.PNG";
-},{}],"images/navy.PNG":[function(require,module,exports) {
-module.exports = "/navy.a3613e28.PNG";
-},{}],"images/sky-blue.PNG":[function(require,module,exports) {
-module.exports = "/sky-blue.f5ace056.PNG";
-},{}],"images/lemon.PNG":[function(require,module,exports) {
-module.exports = "/lemon.950248d2.PNG";
-},{}],"images/pale-green.PNG":[function(require,module,exports) {
-module.exports = "/pale-green.e819a2e0.PNG";
-},{}],"images/dark-green.PNG":[function(require,module,exports) {
-module.exports = "/dark-green.70383292.PNG";
-},{}],"images/pearl.PNG":[function(require,module,exports) {
-module.exports = "/pearl.1fe6c6c3.PNG";
-},{}],"images/chocolate.PNG":[function(require,module,exports) {
-module.exports = "/chocolate.f9a3d536.PNG";
-},{}],"images/black.PNG":[function(require,module,exports) {
-module.exports = "/black.40d96424.PNG";
-},{}],"images/dim-grey.PNG":[function(require,module,exports) {
-module.exports = "/dim-grey.6b255d61.PNG";
-},{}],"images/gainsboro.PNG":[function(require,module,exports) {
-module.exports = "/gainsboro.e0251a32.PNG";
-},{}],"images/beige.PNG":[function(require,module,exports) {
-module.exports = "/beige.61820c67.PNG";
-},{}],"images/violet.PNG":[function(require,module,exports) {
-module.exports = "/violet.8e060d81.PNG";
-},{}],"images/coral.PNG":[function(require,module,exports) {
-module.exports = "/coral.7e776ef1.PNG";
-},{}],"images/water.PNG":[function(require,module,exports) {
-module.exports = "/water.b99bd1b1.PNG";
-},{}],"images/fire.PNG":[function(require,module,exports) {
-module.exports = "/fire.aeb9b804.PNG";
-},{}],"images/solana.PNG":[function(require,module,exports) {
-module.exports = "/solana.3592e727.PNG";
-},{}],"images/dawn.PNG":[function(require,module,exports) {
-module.exports = "/dawn.81dff4d6.PNG";
-},{}],"images/nerd-face.PNG":[function(require,module,exports) {
-module.exports = "/nerd-face.1976787a.PNG";
-},{}],"images/deep-space.PNG":[function(require,module,exports) {
-module.exports = "/deep-space.2b0329ee.PNG";
-},{}],"images/matrix.PNG":[function(require,module,exports) {
-module.exports = "/matrix.1361e77f.PNG";
-},{}],"images/trading-setup.PNG":[function(require,module,exports) {
-module.exports = "/trading-setup.137a608b.PNG";
-},{}],"images/holo-sphere.PNG":[function(require,module,exports) {
-module.exports = "/holo-sphere.f7aec92a.PNG";
-},{}],"images/graffiti.PNG":[function(require,module,exports) {
-module.exports = "/graffiti.aae64973.PNG";
-},{}],"images/pizza4life.PNG":[function(require,module,exports) {
-module.exports = "/pizza4life.d4cca93a.PNG";
-},{}],"images/light-blonde.PNG":[function(require,module,exports) {
-module.exports = "/light-blonde.450772f9.PNG";
-},{}],"images/light-black.PNG":[function(require,module,exports) {
-module.exports = "/light-black.f44798dc.PNG";
-},{}],"images/mid.PNG":[function(require,module,exports) {
-module.exports = "/mid.708c5386.PNG";
-},{}],"images/dark.PNG":[function(require,module,exports) {
-module.exports = "/dark.31a53028.PNG";
-},{}],"images/puberty.PNG":[function(require,module,exports) {
-module.exports = "/puberty.21cafe64.PNG";
-},{}],"images/phantom.PNG":[function(require,module,exports) {
-module.exports = "/phantom.1a0597bd.PNG";
-},{}],"images/zombie.PNG":[function(require,module,exports) {
-module.exports = "/zombie.8c9e2a24.PNG";
-},{}],"images/cyborg.PNG":[function(require,module,exports) {
-module.exports = "/cyborg.9d68edbf.PNG";
-},{}],"images/intersteller.PNG":[function(require,module,exports) {
-module.exports = "/intersteller.6d5be461.PNG";
-},{}],"images/slime.PNG":[function(require,module,exports) {
-module.exports = "/slime.810b8772.PNG";
-},{}],"images/ai.PNG":[function(require,module,exports) {
-module.exports = "/ai.8a79b1be.PNG";
-},{}],"images/zip-hoodie.PNG":[function(require,module,exports) {
-module.exports = "/zip-hoodie.07c2f6b6.PNG";
-},{}],"images/white-tshirt.PNG":[function(require,module,exports) {
-module.exports = "/white-tshirt.334e3541.PNG";
-},{}],"images/black-tshirt.PNG":[function(require,module,exports) {
-module.exports = "/black-tshirt.41fcd34a.PNG";
-},{}],"images/white-shirt.PNG":[function(require,module,exports) {
-module.exports = "/white-shirt.b8a77ecd.PNG";
-},{}],"images/suit-vest.PNG":[function(require,module,exports) {
-module.exports = "/suit-vest.c3d81654.PNG";
-},{}],"images/sttng-uniform.PNG":[function(require,module,exports) {
-module.exports = "/sttng-uniform.4b8f7666.PNG";
-},{}],"images/ma-1.PNG":[function(require,module,exports) {
-module.exports = "/ma-1.3379cda4.PNG";
-},{}],"images/buffer-jacket.PNG":[function(require,module,exports) {
-module.exports = "/buffer-jacket.da6a0f17.PNG";
-},{}],"images/wizard-robe.PNG":[function(require,module,exports) {
-module.exports = "/wizard-robe.05c9778b.PNG";
-},{}],"images/college-jacket.PNG":[function(require,module,exports) {
-module.exports = "/college-jacket.806caa7d.PNG";
-},{}],"images/plaid-shirt.PNG":[function(require,module,exports) {
-module.exports = "/plaid-shirt.6fd86340.PNG";
-},{}],"images/denim-jacket.PNG":[function(require,module,exports) {
-module.exports = "/denim-jacket.215e84b7.PNG";
-},{}],"images/tracksuit.PNG":[function(require,module,exports) {
-module.exports = "/tracksuit.d799a2a8.PNG";
-},{}],"images/turtleneck.PNG":[function(require,module,exports) {
-module.exports = "/turtleneck.dbe88490.PNG";
-},{}],"images/tie-die-tshirt.PNG":[function(require,module,exports) {
-module.exports = "/tie-die-tshirt.a299c443.PNG";
-},{}],"images/solana-uniform.PNG":[function(require,module,exports) {
-module.exports = "/solana-uniform.ca164741.PNG";
-},{}],"images/hawaiian-shirt.PNG":[function(require,module,exports) {
-module.exports = "/hawaiian-shirt.0f702fe9.PNG";
-},{}],"images/b-ball-jersey.PNG":[function(require,module,exports) {
-module.exports = "/b-ball-jersey.b84ce6d3.PNG";
-},{}],"images/soccer-jersey.PNG":[function(require,module,exports) {
-module.exports = "/soccer-jersey.db2ea7cf.PNG";
-},{}],"images/biker-jacket.PNG":[function(require,module,exports) {
-module.exports = "/biker-jacket.f2215fc2.PNG";
-},{}],"images/slip-over.PNG":[function(require,module,exports) {
-module.exports = "/slip-over.4ae3c4f5.PNG";
-},{}],"images/suit.PNG":[function(require,module,exports) {
-module.exports = "/suit.76ddc4ce.PNG";
-},{}],"images/space-suit.PNG":[function(require,module,exports) {
-module.exports = "/space-suit.772a457d.PNG";
-},{}],"images/thobe.PNG":[function(require,module,exports) {
-module.exports = "/thobe.c8c7045b.PNG";
-},{}],"images/caesar.PNG":[function(require,module,exports) {
-module.exports = "/caesar.7f31ce97.PNG";
-},{}],"images/diamond-sweatshirt.PNG":[function(require,module,exports) {
-module.exports = "/diamond-sweatshirt.ea80cf73.PNG";
-},{}],"images/holo-zip-hoodie.PNG":[function(require,module,exports) {
-module.exports = "/holo-zip-hoodie.b9336a8d.PNG";
-},{}],"images/vader's-armor.PNG":[function(require,module,exports) {
-module.exports = "/vader's-armor.34b4f13a.PNG";
-},{}],"images/lava-set.PNG":[function(require,module,exports) {
-module.exports = "/lava-set.d60a3664.PNG";
-},{}],"images/smirk.PNG":[function(require,module,exports) {
-module.exports = "/smirk.97532859.PNG";
-},{}],"images/grin.PNG":[function(require,module,exports) {
-module.exports = "/grin.a4fa95b6.PNG";
-},{}],"images/surprised.PNG":[function(require,module,exports) {
-module.exports = "/surprised.f13900d8.PNG";
-},{}],"images/tongue-out.PNG":[function(require,module,exports) {
-module.exports = "/tongue-out.4ac62cd1.PNG";
-},{}],"images/braces.PNG":[function(require,module,exports) {
-module.exports = "/braces.5ee30093.PNG";
-},{}],"images/mustache.PNG":[function(require,module,exports) {
-module.exports = "/mustache.d8d0056a.PNG";
-},{}],"images/beard.PNG":[function(require,module,exports) {
-module.exports = "/beard.e12e0ed8.PNG";
-},{}],"images/send-love.PNG":[function(require,module,exports) {
-module.exports = "/send-love.b57abb74.PNG";
-},{}],"images/party-horn.PNG":[function(require,module,exports) {
-module.exports = "/party-horn.640c7434.PNG";
-},{}],"images/red-bandana.PNG":[function(require,module,exports) {
-module.exports = "/red-bandana.fdc0446e.PNG";
-},{}],"images/blue-bandana.PNG":[function(require,module,exports) {
-module.exports = "/blue-bandana.cdb0c8f8.PNG";
-},{}],"images/cuban-cigar.PNG":[function(require,module,exports) {
-module.exports = "/cuban-cigar.e8199518.PNG";
-},{}],"images/vampire-teeth.PNG":[function(require,module,exports) {
-module.exports = "/vampire-teeth.ae0163eb.PNG";
-},{}],"images/joker.PNG":[function(require,module,exports) {
-module.exports = "/joker.5dd67f76.PNG";
-},{}],"images/diamond-grillz.PNG":[function(require,module,exports) {
-module.exports = "/diamond-grillz.862355ff.PNG";
-},{}],"images/elon-musk.PNG":[function(require,module,exports) {
-module.exports = "/elon-musk.9b7a214e.PNG";
-},{}],"images/black-face.PNG":[function(require,module,exports) {
-module.exports = "/black-face.0034274a.PNG";
-},{}],"images/brown-face.PNG":[function(require,module,exports) {
-module.exports = "/brown-face.9e10b470.PNG";
-},{}],"images/blue-face.PNG":[function(require,module,exports) {
-module.exports = "/blue-face.339e3d59.PNG";
-},{}],"images/green-face.PNG":[function(require,module,exports) {
-module.exports = "/green-face.275c6dbf.PNG";
-},{}],"images/sunglasses.PNG":[function(require,module,exports) {
-module.exports = "/sunglasses.e6459c76.PNG";
-},{}],"images/nerd-viper.PNG":[function(require,module,exports) {
-module.exports = "/nerd-viper.c07704c3.PNG";
-},{}],"images/solana-summer.PNG":[function(require,module,exports) {
-module.exports = "/solana-summer.ed4abfa6.PNG";
-},{}],"images/freckles.PNG":[function(require,module,exports) {
-module.exports = "/freckles.388fcaef.PNG";
-},{}],"images/exhausted.PNG":[function(require,module,exports) {
-module.exports = "/exhausted.d5b77937.PNG";
-},{}],"images/nerd-glasses.PNG":[function(require,module,exports) {
-module.exports = "/nerd-glasses.1f96ff88.PNG";
-},{}],"images/future.PNG":[function(require,module,exports) {
-module.exports = "/future.dc0c2f11.PNG";
-},{}],"images/psycho.PNG":[function(require,module,exports) {
-module.exports = "/psycho.8f568164.PNG";
-},{}],"images/diamond-face.PNG":[function(require,module,exports) {
-module.exports = "/diamond-face.75a188c1.PNG";
-},{}],"images/laser-face.PNG":[function(require,module,exports) {
-module.exports = "/laser-face.62e1b08c.PNG";
-},{}],"images/bitcoin.PNG":[function(require,module,exports) {
-module.exports = "/bitcoin.e03f7411.PNG";
-},{}],"images/rainbow.PNG":[function(require,module,exports) {
-module.exports = "/rainbow.318af2f9.PNG";
-},{}],"images/onyx.PNG":[function(require,module,exports) {
-module.exports = "/onyx.7ac6e975.PNG";
-},{}],"images/none.PNG":[function(require,module,exports) {
-module.exports = "/none.6e5840dd.PNG";
-},{}],"images/black-beanie.PNG":[function(require,module,exports) {
-module.exports = "/black-beanie.db99219c.PNG";
-},{}],"images/orange-beanie.PNG":[function(require,module,exports) {
-module.exports = "/orange-beanie.4330d153.PNG";
-},{}],"images/beige-beanie.PNG":[function(require,module,exports) {
-module.exports = "/beige-beanie.500bba62.PNG";
-},{}],"images/snapback.PNG":[function(require,module,exports) {
-module.exports = "/snapback.ff49a9fd.PNG";
-},{}],"images/flat-cap.PNG":[function(require,module,exports) {
-module.exports = "/flat-cap.5dba41b5.PNG";
-},{}],"images/headset.PNG":[function(require,module,exports) {
-module.exports = "/headset.a7e98fcc.PNG";
-},{}],"images/solana-headband.PNG":[function(require,module,exports) {
-module.exports = "/solana-headband.7739318a.PNG";
-},{}],"images/quit-crypto-hat.PNG":[function(require,module,exports) {
-module.exports = "/quit-crypto-hat.4487a2b0.PNG";
-},{}],"images/devil-horns.PNG":[function(require,module,exports) {
-module.exports = "/devil-horns.5e00a2c2.PNG";
-},{}],"images/bowl-cut.PNG":[function(require,module,exports) {
-module.exports = "/bowl-cut.6f970f60.PNG";
-},{}],"images/crown.PNG":[function(require,module,exports) {
-module.exports = "/crown.763a88df.PNG";
-},{}],"images/space-helmet.PNG":[function(require,module,exports) {
-module.exports = "/space-helmet.038008b4.PNG";
-},{}],"images/keffiyeh.PNG":[function(require,module,exports) {
-module.exports = "/keffiyeh.127d18e5.PNG";
-},{}],"images/diamond-headset.PNG":[function(require,module,exports) {
-module.exports = "/diamond-headset.e148dd67.PNG";
-},{}],"images/war-bonnet.PNG":[function(require,module,exports) {
-module.exports = "/war-bonnet.e12d47ea.PNG";
-},{}],"images/super-brain.PNG":[function(require,module,exports) {
-module.exports = "/super-brain.224c2363.PNG";
-},{}],"images/laurel-wreath.PNG":[function(require,module,exports) {
-module.exports = "/laurel-wreath.a2545da5.PNG";
-},{}],"images/holo-halo.PNG":[function(require,module,exports) {
-module.exports = "/holo-halo.2a5a0897.PNG";
-},{}],"images/vader's-helmet.PNG":[function(require,module,exports) {
-module.exports = "/vader's-helmet.5adca861.PNG";
-},{}],"images/sam's-hair.PNG":[function(require,module,exports) {
-module.exports = "/sam's-hair.860d85da.PNG";
-},{}],"images/peace.PNG":[function(require,module,exports) {
-module.exports = "/peace.4e9add1a.PNG";
-},{}],"images/coffee.PNG":[function(require,module,exports) {
-module.exports = "/coffee.096ea916.PNG";
-},{}],"images/cash.PNG":[function(require,module,exports) {
-module.exports = "/cash.2fe7bd96.PNG";
-},{}],"images/solana-chain.PNG":[function(require,module,exports) {
-module.exports = "/solana-chain.d6af2520.PNG";
-},{}],"images/blue-light-saber.PNG":[function(require,module,exports) {
-module.exports = "/blue-light-saber.8b4e3763.PNG";
-},{}],"images/red-light-saber.PNG":[function(require,module,exports) {
-module.exports = "/red-light-saber.92b4668f.PNG";
-},{}],"images/cape.PNG":[function(require,module,exports) {
-module.exports = "/cape.502fdce7.PNG";
-},{}],"images/btc-chain.PNG":[function(require,module,exports) {
-module.exports = "/btc-chain.4ee02b57.PNG";
-},{}],"images/jetpack.PNG":[function(require,module,exports) {
-module.exports = "/jetpack.db936f20.PNG";
-},{}],"images/nerd-chain.PNG":[function(require,module,exports) {
-module.exports = "/nerd-chain.28cba742.PNG";
-},{}],"images/holo-wings.PNG":[function(require,module,exports) {
-module.exports = "/holo-wings.1be6ad42.PNG";
-},{}],"images/holo-chart.PNG":[function(require,module,exports) {
-module.exports = "/holo-chart.10226e1d.PNG";
+},{"react":"node_modules/react/index.js","../LOGO":"components/LOGO/index.jsx","../NAVLINK":"components/NAVLINK/index.jsx","../NAVLINK2":"components/NAVLINK2/index.jsx","../Frame13":"components/Frame13/index.jsx","../Property1Default":"components/Property1Default/index.jsx","../Property1Variant3":"components/Property1Variant3/index.jsx","../Property1Variant2":"components/Property1Variant2/index.jsx","../DiscoverTraits":"components/DiscoverTraits/index.jsx","../Frame38":"components/Frame38/index.jsx","../CardTypeMainTweetDarkModeFalseYourT":"components/CardTypeMainTweetDarkModeFalseYourT/index.jsx","../FOOTER":"components/FOOTER/index.jsx","./Desktop.css":"components/Desktop/Desktop.css","../../redux/reducers/general":"redux/reducers/general.js","react-redux":"node_modules/react-redux/es/index.js"}],"images/backgrounds/1_1.png":[function(require,module,exports) {
+module.exports = "/1_1.fe45d496.png";
+},{}],"images/backgrounds/1_2.png":[function(require,module,exports) {
+module.exports = "/1_2.5c6dbd60.png";
+},{}],"images/backgrounds/1_3.png":[function(require,module,exports) {
+module.exports = "/1_3.49a2edd1.png";
+},{}],"images/backgrounds/1_4.png":[function(require,module,exports) {
+module.exports = "/1_4.518113f0.png";
+},{}],"images/backgrounds/1_5.png":[function(require,module,exports) {
+module.exports = "/1_5.edffd002.png";
+},{}],"images/backgrounds/1_6.png":[function(require,module,exports) {
+module.exports = "/1_6.b05c8a5f.png";
+},{}],"images/backgrounds/1_7.png":[function(require,module,exports) {
+module.exports = "/1_7.967556a0.png";
+},{}],"images/backgrounds/1_8.png":[function(require,module,exports) {
+module.exports = "/1_8.23295a2c.png";
+},{}],"images/backgrounds/1_9.png":[function(require,module,exports) {
+module.exports = "/1_9.a7524d52.png";
+},{}],"images/backgrounds/1_10.png":[function(require,module,exports) {
+module.exports = "/1_10.edfd2af7.png";
+},{}],"images/backgrounds/1_11.png":[function(require,module,exports) {
+module.exports = "/1_11.6f8a759c.png";
+},{}],"images/backgrounds/1_12.png":[function(require,module,exports) {
+module.exports = "/1_12.59e42523.png";
+},{}],"images/backgrounds/1_13.png":[function(require,module,exports) {
+module.exports = "/1_13.ae69279c.png";
+},{}],"images/backgrounds/1_14.png":[function(require,module,exports) {
+module.exports = "/1_14.3d3acd52.png";
+},{}],"images/backgrounds/1_15.png":[function(require,module,exports) {
+module.exports = "/1_15.73362bff.png";
+},{}],"images/backgrounds/1_16.png":[function(require,module,exports) {
+module.exports = "/1_16.eb166feb.png";
+},{}],"images/backgrounds/1_17.png":[function(require,module,exports) {
+module.exports = "/1_17.1f62538e.png";
+},{}],"images/backgrounds/1_18.png":[function(require,module,exports) {
+module.exports = "/1_18.5616ea68.png";
+},{}],"images/backgrounds/1_19.png":[function(require,module,exports) {
+module.exports = "/1_19.3c3748e2.png";
+},{}],"images/backgrounds/1_20.png":[function(require,module,exports) {
+module.exports = "/1_20.1ab8bcce.png";
+},{}],"images/backgrounds/1_21.png":[function(require,module,exports) {
+module.exports = "/1_21.8ce89199.png";
+},{}],"images/backgrounds/1_22.png":[function(require,module,exports) {
+module.exports = "/1_22.cc006071.png";
+},{}],"images/backgrounds/1_23.png":[function(require,module,exports) {
+module.exports = "/1_23.6c1067ef.png";
+},{}],"images/backgrounds/1_24.png":[function(require,module,exports) {
+module.exports = "/1_24.e1389994.png";
+},{}],"images/backgrounds/1_25.png":[function(require,module,exports) {
+module.exports = "/1_25.7fd9a167.png";
+},{}],"images/skin/2_1.png":[function(require,module,exports) {
+module.exports = "/2_1.cf2cc7e2.png";
+},{}],"images/skin/2_2.png":[function(require,module,exports) {
+module.exports = "/2_2.ea18ece7.png";
+},{}],"images/skin/2_3.png":[function(require,module,exports) {
+module.exports = "/2_3.cf5d4a23.png";
+},{}],"images/skin/2_4.png":[function(require,module,exports) {
+module.exports = "/2_4.4ef5198d.png";
+},{}],"images/skin/2_5.png":[function(require,module,exports) {
+module.exports = "/2_5.be033735.png";
+},{}],"images/skin/2_6.png":[function(require,module,exports) {
+module.exports = "/2_6.fd12d0c7.png";
+},{}],"images/skin/2_7.png":[function(require,module,exports) {
+module.exports = "/2_7.f1a08793.png";
+},{}],"images/skin/2_8.png":[function(require,module,exports) {
+module.exports = "/2_8.a9acc1af.png";
+},{}],"images/skin/2_9.png":[function(require,module,exports) {
+module.exports = "/2_9.1c827f16.png";
+},{}],"images/skin/2_10.png":[function(require,module,exports) {
+module.exports = "/2_10.4082a5c2.png";
+},{}],"images/skin/2_11.png":[function(require,module,exports) {
+module.exports = "/2_11.e9bf08f7.png";
+},{}],"images/apparel/3_1.png":[function(require,module,exports) {
+module.exports = "/3_1.cbdd5b47.png";
+},{}],"images/apparel/3_2.png":[function(require,module,exports) {
+module.exports = "/3_2.92c0d0ad.png";
+},{}],"images/apparel/3_3.png":[function(require,module,exports) {
+module.exports = "/3_3.902bf08a.png";
+},{}],"images/apparel/3_4.png":[function(require,module,exports) {
+module.exports = "/3_4.e417d337.png";
+},{}],"images/apparel/3_5.png":[function(require,module,exports) {
+module.exports = "/3_5.a749fb69.png";
+},{}],"images/apparel/3_6.png":[function(require,module,exports) {
+module.exports = "/3_6.c92ec460.png";
+},{}],"images/apparel/3_7.png":[function(require,module,exports) {
+module.exports = "/3_7.559f4049.png";
+},{}],"images/apparel/3_8.png":[function(require,module,exports) {
+module.exports = "/3_8.a252ebbb.png";
+},{}],"images/apparel/3_9.png":[function(require,module,exports) {
+module.exports = "/3_9.ed413912.png";
+},{}],"images/apparel/3_10.png":[function(require,module,exports) {
+module.exports = "/3_10.cd6a796f.png";
+},{}],"images/apparel/3_11.png":[function(require,module,exports) {
+module.exports = "/3_11.f5a76219.png";
+},{}],"images/apparel/3_12.png":[function(require,module,exports) {
+module.exports = "/3_12.08cbc36b.png";
+},{}],"images/apparel/3_13.png":[function(require,module,exports) {
+module.exports = "/3_13.b46a2e69.png";
+},{}],"images/apparel/3_14.png":[function(require,module,exports) {
+module.exports = "/3_14.b612767a.png";
+},{}],"images/apparel/3_15.png":[function(require,module,exports) {
+module.exports = "/3_15.a0fc74ee.png";
+},{}],"images/apparel/3_16.png":[function(require,module,exports) {
+module.exports = "/3_16.3977ec72.png";
+},{}],"images/apparel/3_17.png":[function(require,module,exports) {
+module.exports = "/3_17.504584e6.png";
+},{}],"images/apparel/3_18.png":[function(require,module,exports) {
+module.exports = "/3_18.e5f2a006.png";
+},{}],"images/apparel/3_19.png":[function(require,module,exports) {
+module.exports = "/3_19.0757362d.png";
+},{}],"images/apparel/3_20.png":[function(require,module,exports) {
+module.exports = "/3_20.11462b97.png";
+},{}],"images/apparel/3_21.png":[function(require,module,exports) {
+module.exports = "/3_21.266fd585.png";
+},{}],"images/apparel/3_22.png":[function(require,module,exports) {
+module.exports = "/3_22.8f473d03.png";
+},{}],"images/apparel/3_23.png":[function(require,module,exports) {
+module.exports = "/3_23.b19c198d.png";
+},{}],"images/apparel/3_24.png":[function(require,module,exports) {
+module.exports = "/3_24.8f67065d.png";
+},{}],"images/apparel/3_25.png":[function(require,module,exports) {
+module.exports = "/3_25.8f21d95f.png";
+},{}],"images/apparel/3_26.png":[function(require,module,exports) {
+module.exports = "/3_26.095328f4.png";
+},{}],"images/apparel/3_27.png":[function(require,module,exports) {
+module.exports = "/3_27.59a93ead.png";
+},{}],"images/apparel/3_28.png":[function(require,module,exports) {
+module.exports = "/3_28.2237f8d5.png";
+},{}],"images/apparel/3_29.png":[function(require,module,exports) {
+module.exports = "/3_29.3ee3ffdd.png";
+},{}],"images/mouth/4_1.png":[function(require,module,exports) {
+module.exports = "/4_1.626564dc.png";
+},{}],"images/mouth/4_2.png":[function(require,module,exports) {
+module.exports = "/4_2.f3137adf.png";
+},{}],"images/mouth/4_3.png":[function(require,module,exports) {
+module.exports = "/4_3.5513d6c8.png";
+},{}],"images/mouth/4_4.png":[function(require,module,exports) {
+module.exports = "/4_4.dfa36438.png";
+},{}],"images/mouth/4_5.png":[function(require,module,exports) {
+module.exports = "/4_5.196f8790.png";
+},{}],"images/mouth/4_6.png":[function(require,module,exports) {
+module.exports = "/4_6.35cba461.png";
+},{}],"images/mouth/4_7.png":[function(require,module,exports) {
+module.exports = "/4_7.ab0a9232.png";
+},{}],"images/mouth/4_8.png":[function(require,module,exports) {
+module.exports = "/4_8.0622ecf8.png";
+},{}],"images/mouth/4_9.png":[function(require,module,exports) {
+module.exports = "/4_9.dc958fd7.png";
+},{}],"images/mouth/4_10.png":[function(require,module,exports) {
+module.exports = "/4_10.12864842.png";
+},{}],"images/mouth/4_11.png":[function(require,module,exports) {
+module.exports = "/4_11.cf52b9cb.png";
+},{}],"images/mouth/4_12.png":[function(require,module,exports) {
+module.exports = "/4_12.bb7d2da9.png";
+},{}],"images/mouth/4_13.png":[function(require,module,exports) {
+module.exports = "/4_13.74a2fee4.png";
+},{}],"images/mouth/4_14.png":[function(require,module,exports) {
+module.exports = "/4_14.5bda69f5.png";
+},{}],"images/mouth/4_15.png":[function(require,module,exports) {
+module.exports = "/4_15.520c803f.png";
+},{}],"images/mouth/4_16.png":[function(require,module,exports) {
+module.exports = "/4_16.0abe4e7e.png";
+},{}],"images/face/5_1.png":[function(require,module,exports) {
+module.exports = "/5_1.ee43179a.png";
+},{}],"images/face/5_2.png":[function(require,module,exports) {
+module.exports = "/5_2.38a10ccd.png";
+},{}],"images/face/5_3.png":[function(require,module,exports) {
+module.exports = "/5_3.9132de8d.png";
+},{}],"images/face/5_4.png":[function(require,module,exports) {
+module.exports = "/5_4.0272f681.png";
+},{}],"images/face/5_5.png":[function(require,module,exports) {
+module.exports = "/5_5.3ea86223.png";
+},{}],"images/face/5_6.png":[function(require,module,exports) {
+module.exports = "/5_6.451e0e16.png";
+},{}],"images/face/5_7.png":[function(require,module,exports) {
+module.exports = "/5_7.4b1c885c.png";
+},{}],"images/face/5_8.png":[function(require,module,exports) {
+module.exports = "/5_8.4df9c9e2.png";
+},{}],"images/face/5_9.png":[function(require,module,exports) {
+module.exports = "/5_9.514b3b81.png";
+},{}],"images/face/5_10.png":[function(require,module,exports) {
+module.exports = "/5_10.9792761b.png";
+},{}],"images/face/5_11.png":[function(require,module,exports) {
+module.exports = "/5_11.ccfe96e5.png";
+},{}],"images/face/5_12.png":[function(require,module,exports) {
+module.exports = "/5_12.9f403395.png";
+},{}],"images/face/5_13.png":[function(require,module,exports) {
+module.exports = "/5_13.49145a61.png";
+},{}],"images/face/5_14.png":[function(require,module,exports) {
+module.exports = "/5_14.78125654.png";
+},{}],"images/face/5_15.png":[function(require,module,exports) {
+module.exports = "/5_15.6c2f0318.png";
+},{}],"images/face/5_16.png":[function(require,module,exports) {
+module.exports = "/5_16.25ae8019.png";
+},{}],"images/face/5_17.png":[function(require,module,exports) {
+module.exports = "/5_17.5adf9f12.png";
+},{}],"images/casual/none.PNG":[function(require,module,exports) {
+module.exports = "/none.5cc171e3.PNG";
+},{}],"images/head/6_2.png":[function(require,module,exports) {
+module.exports = "/6_2.da37e933.png";
+},{}],"images/head/6_3.png":[function(require,module,exports) {
+module.exports = "/6_3.a0d6a003.png";
+},{}],"images/head/6_4.png":[function(require,module,exports) {
+module.exports = "/6_4.38cdbba5.png";
+},{}],"images/head/6_5.png":[function(require,module,exports) {
+module.exports = "/6_5.f08ce90c.png";
+},{}],"images/head/6_6.png":[function(require,module,exports) {
+module.exports = "/6_6.f0791d9b.png";
+},{}],"images/head/6_7.png":[function(require,module,exports) {
+module.exports = "/6_7.7b72ded3.png";
+},{}],"images/head/6_8.png":[function(require,module,exports) {
+module.exports = "/6_8.92d42364.png";
+},{}],"images/head/6_9.png":[function(require,module,exports) {
+module.exports = "/6_9.b6efebdc.png";
+},{}],"images/head/6_10.png":[function(require,module,exports) {
+module.exports = "/6_10.1643f7b6.png";
+},{}],"images/head/6_11.png":[function(require,module,exports) {
+module.exports = "/6_11.5dcb0760.png";
+},{}],"images/head/6_12.png":[function(require,module,exports) {
+module.exports = "/6_12.a08e1ef5.png";
+},{}],"images/head/6_13.png":[function(require,module,exports) {
+module.exports = "/6_13.c2449880.png";
+},{}],"images/head/6_14.png":[function(require,module,exports) {
+module.exports = "/6_14.f5769726.png";
+},{}],"images/head/6_15.png":[function(require,module,exports) {
+module.exports = "/6_15.07973e67.png";
+},{}],"images/head/6_16.png":[function(require,module,exports) {
+module.exports = "/6_16.2eea45bb.png";
+},{}],"images/head/6_17.png":[function(require,module,exports) {
+module.exports = "/6_17.7f247023.png";
+},{}],"images/head/6_18.png":[function(require,module,exports) {
+module.exports = "/6_18.a12b696e.png";
+},{}],"images/head/6_19.png":[function(require,module,exports) {
+module.exports = "/6_19.fc164746.png";
+},{}],"images/head/6_20.png":[function(require,module,exports) {
+module.exports = "/6_20.818ba8b8.png";
+},{}],"images/head/6_21.png":[function(require,module,exports) {
+module.exports = "/6_21.39ae6ad2.png";
+},{}],"images/extra/7_2.png":[function(require,module,exports) {
+module.exports = "/7_2.43d7c1a2.png";
+},{}],"images/extra/7_3.png":[function(require,module,exports) {
+module.exports = "/7_3.da791609.png";
+},{}],"images/extra/7_4.png":[function(require,module,exports) {
+module.exports = "/7_4.236257ef.png";
+},{}],"images/extra/7_5.png":[function(require,module,exports) {
+module.exports = "/7_5.2c8f8644.png";
+},{}],"images/extra/7_6.png":[function(require,module,exports) {
+module.exports = "/7_6.27985d3b.png";
+},{}],"images/extra/7_7.png":[function(require,module,exports) {
+module.exports = "/7_7.89b30ada.png";
+},{}],"images/extra/7_8.png":[function(require,module,exports) {
+module.exports = "/7_8.a302b5de.png";
+},{}],"images/extra/7_9.png":[function(require,module,exports) {
+module.exports = "/7_9.d9929e7c.png";
+},{}],"images/extra/7_10.png":[function(require,module,exports) {
+module.exports = "/7_10.5ea47ce4.png";
+},{}],"images/extra/7_11.png":[function(require,module,exports) {
+module.exports = "/7_11.dca71a8b.png";
+},{}],"images/extra/7_12.png":[function(require,module,exports) {
+module.exports = "/7_12.ab1d724f.png";
+},{}],"images/extra/7_13.png":[function(require,module,exports) {
+module.exports = "/7_13.2f7d4e1c.png";
 },{}],"components/Main/index.jsx":[function(require,module,exports) {
 "use strict";
 
@@ -45317,267 +45317,267 @@ var _reactRedux = require("react-redux");
 
 var _Desktop = _interopRequireDefault(require("../Desktop"));
 
-var _salmon = _interopRequireDefault(require("../../images/salmon.PNG"));
+var _ = _interopRequireDefault(require("../../images/backgrounds/1_1.png"));
 
-var _navy = _interopRequireDefault(require("../../images/navy.PNG"));
+var _2 = _interopRequireDefault(require("../../images/backgrounds/1_2.png"));
 
-var _skyBlue = _interopRequireDefault(require("../../images/sky-blue.PNG"));
+var _3 = _interopRequireDefault(require("../../images/backgrounds/1_3.png"));
 
-var _lemon = _interopRequireDefault(require("../../images/lemon.PNG"));
+var _4 = _interopRequireDefault(require("../../images/backgrounds/1_4.png"));
 
-var _paleGreen = _interopRequireDefault(require("../../images/pale-green.PNG"));
+var _5 = _interopRequireDefault(require("../../images/backgrounds/1_5.png"));
 
-var _darkGreen = _interopRequireDefault(require("../../images/dark-green.PNG"));
+var _6 = _interopRequireDefault(require("../../images/backgrounds/1_6.png"));
 
-var _pearl = _interopRequireDefault(require("../../images/pearl.PNG"));
+var _7 = _interopRequireDefault(require("../../images/backgrounds/1_7.png"));
 
-var _chocolate = _interopRequireDefault(require("../../images/chocolate.PNG"));
+var _8 = _interopRequireDefault(require("../../images/backgrounds/1_8.png"));
 
-var _black = _interopRequireDefault(require("../../images/black.PNG"));
+var _9 = _interopRequireDefault(require("../../images/backgrounds/1_9.png"));
 
-var _dimGrey = _interopRequireDefault(require("../../images/dim-grey.PNG"));
+var _10 = _interopRequireDefault(require("../../images/backgrounds/1_10.png"));
 
-var _gainsboro = _interopRequireDefault(require("../../images/gainsboro.PNG"));
+var _11 = _interopRequireDefault(require("../../images/backgrounds/1_11.png"));
 
-var _beige = _interopRequireDefault(require("../../images/beige.PNG"));
+var _12 = _interopRequireDefault(require("../../images/backgrounds/1_12.png"));
 
-var _violet = _interopRequireDefault(require("../../images/violet.PNG"));
+var _13 = _interopRequireDefault(require("../../images/backgrounds/1_13.png"));
 
-var _coral = _interopRequireDefault(require("../../images/coral.PNG"));
+var _14 = _interopRequireDefault(require("../../images/backgrounds/1_14.png"));
 
-var _water = _interopRequireDefault(require("../../images/water.PNG"));
+var _15 = _interopRequireDefault(require("../../images/backgrounds/1_15.png"));
 
-var _fire = _interopRequireDefault(require("../../images/fire.PNG"));
+var _16 = _interopRequireDefault(require("../../images/backgrounds/1_16.png"));
 
-var _solana = _interopRequireDefault(require("../../images/solana.PNG"));
+var _17 = _interopRequireDefault(require("../../images/backgrounds/1_17.png"));
 
-var _dawn = _interopRequireDefault(require("../../images/dawn.PNG"));
+var _18 = _interopRequireDefault(require("../../images/backgrounds/1_18.png"));
 
-var _nerdFace = _interopRequireDefault(require("../../images/nerd-face.PNG"));
+var _19 = _interopRequireDefault(require("../../images/backgrounds/1_19.png"));
 
-var _deepSpace = _interopRequireDefault(require("../../images/deep-space.PNG"));
+var _20 = _interopRequireDefault(require("../../images/backgrounds/1_20.png"));
 
-var _matrix = _interopRequireDefault(require("../../images/matrix.PNG"));
+var _21 = _interopRequireDefault(require("../../images/backgrounds/1_21.png"));
 
-var _tradingSetup = _interopRequireDefault(require("../../images/trading-setup.PNG"));
+var _22 = _interopRequireDefault(require("../../images/backgrounds/1_22.png"));
 
-var _holoSphere = _interopRequireDefault(require("../../images/holo-sphere.PNG"));
+var _23 = _interopRequireDefault(require("../../images/backgrounds/1_23.png"));
 
-var _graffiti = _interopRequireDefault(require("../../images/graffiti.PNG"));
+var _24 = _interopRequireDefault(require("../../images/backgrounds/1_24.png"));
 
-var _pizza4life = _interopRequireDefault(require("../../images/pizza4life.PNG"));
+var _25 = _interopRequireDefault(require("../../images/backgrounds/1_25.png"));
 
-var _lightBlonde = _interopRequireDefault(require("../../images/light-blonde.PNG"));
+var _26 = _interopRequireDefault(require("../../images/skin/2_1.png"));
 
-var _lightBlack = _interopRequireDefault(require("../../images/light-black.PNG"));
+var _27 = _interopRequireDefault(require("../../images/skin/2_2.png"));
 
-var _mid = _interopRequireDefault(require("../../images/mid.PNG"));
+var _28 = _interopRequireDefault(require("../../images/skin/2_3.png"));
 
-var _dark = _interopRequireDefault(require("../../images/dark.PNG"));
+var _29 = _interopRequireDefault(require("../../images/skin/2_4.png"));
 
-var _puberty = _interopRequireDefault(require("../../images/puberty.PNG"));
+var _30 = _interopRequireDefault(require("../../images/skin/2_5.png"));
 
-var _phantom = _interopRequireDefault(require("../../images/phantom.PNG"));
+var _31 = _interopRequireDefault(require("../../images/skin/2_6.png"));
 
-var _zombie = _interopRequireDefault(require("../../images/zombie.PNG"));
+var _32 = _interopRequireDefault(require("../../images/skin/2_7.png"));
 
-var _cyborg = _interopRequireDefault(require("../../images/cyborg.PNG"));
+var _33 = _interopRequireDefault(require("../../images/skin/2_8.png"));
 
-var _intersteller = _interopRequireDefault(require("../../images/intersteller.PNG"));
+var _34 = _interopRequireDefault(require("../../images/skin/2_9.png"));
 
-var _slime = _interopRequireDefault(require("../../images/slime.PNG"));
+var _35 = _interopRequireDefault(require("../../images/skin/2_10.png"));
 
-var _ai = _interopRequireDefault(require("../../images/ai.PNG"));
+var _36 = _interopRequireDefault(require("../../images/skin/2_11.png"));
 
-var _zipHoodie = _interopRequireDefault(require("../../images/zip-hoodie.PNG"));
+var _37 = _interopRequireDefault(require("../../images/apparel/3_1.png"));
 
-var _whiteTshirt = _interopRequireDefault(require("../../images/white-tshirt.PNG"));
+var _38 = _interopRequireDefault(require("../../images/apparel/3_2.png"));
 
-var _blackTshirt = _interopRequireDefault(require("../../images/black-tshirt.PNG"));
+var _39 = _interopRequireDefault(require("../../images/apparel/3_3.png"));
 
-var _whiteShirt = _interopRequireDefault(require("../../images/white-shirt.PNG"));
+var _40 = _interopRequireDefault(require("../../images/apparel/3_4.png"));
 
-var _suitVest = _interopRequireDefault(require("../../images/suit-vest.PNG"));
+var _41 = _interopRequireDefault(require("../../images/apparel/3_5.png"));
 
-var _sttngUniform = _interopRequireDefault(require("../../images/sttng-uniform.PNG"));
+var _42 = _interopRequireDefault(require("../../images/apparel/3_6.png"));
 
-var _ma = _interopRequireDefault(require("../../images/ma-1.PNG"));
+var _43 = _interopRequireDefault(require("../../images/apparel/3_7.png"));
 
-var _bufferJacket = _interopRequireDefault(require("../../images/buffer-jacket.PNG"));
+var _44 = _interopRequireDefault(require("../../images/apparel/3_8.png"));
 
-var _wizardRobe = _interopRequireDefault(require("../../images/wizard-robe.PNG"));
+var _45 = _interopRequireDefault(require("../../images/apparel/3_9.png"));
 
-var _collegeJacket = _interopRequireDefault(require("../../images/college-jacket.PNG"));
+var _46 = _interopRequireDefault(require("../../images/apparel/3_10.png"));
 
-var _plaidShirt = _interopRequireDefault(require("../../images/plaid-shirt.PNG"));
+var _47 = _interopRequireDefault(require("../../images/apparel/3_11.png"));
 
-var _denimJacket = _interopRequireDefault(require("../../images/denim-jacket.PNG"));
+var _48 = _interopRequireDefault(require("../../images/apparel/3_12.png"));
 
-var _tracksuit = _interopRequireDefault(require("../../images/tracksuit.PNG"));
+var _49 = _interopRequireDefault(require("../../images/apparel/3_13.png"));
 
-var _turtleneck = _interopRequireDefault(require("../../images/turtleneck.PNG"));
+var _50 = _interopRequireDefault(require("../../images/apparel/3_14.png"));
 
-var _tieDieTshirt = _interopRequireDefault(require("../../images/tie-die-tshirt.PNG"));
+var _51 = _interopRequireDefault(require("../../images/apparel/3_15.png"));
 
-var _solanaUniform = _interopRequireDefault(require("../../images/solana-uniform.PNG"));
+var _52 = _interopRequireDefault(require("../../images/apparel/3_16.png"));
 
-var _hawaiianShirt = _interopRequireDefault(require("../../images/hawaiian-shirt.PNG"));
+var _53 = _interopRequireDefault(require("../../images/apparel/3_17.png"));
 
-var _bBallJersey = _interopRequireDefault(require("../../images/b-ball-jersey.PNG"));
+var _54 = _interopRequireDefault(require("../../images/apparel/3_18.png"));
 
-var _soccerJersey = _interopRequireDefault(require("../../images/soccer-jersey.PNG"));
+var _55 = _interopRequireDefault(require("../../images/apparel/3_19.png"));
 
-var _bikerJacket = _interopRequireDefault(require("../../images/biker-jacket.PNG"));
+var _56 = _interopRequireDefault(require("../../images/apparel/3_20.png"));
 
-var _slipOver = _interopRequireDefault(require("../../images/slip-over.PNG"));
+var _57 = _interopRequireDefault(require("../../images/apparel/3_21.png"));
 
-var _suit = _interopRequireDefault(require("../../images/suit.PNG"));
+var _58 = _interopRequireDefault(require("../../images/apparel/3_22.png"));
 
-var _spaceSuit = _interopRequireDefault(require("../../images/space-suit.PNG"));
+var _59 = _interopRequireDefault(require("../../images/apparel/3_23.png"));
 
-var _thobe = _interopRequireDefault(require("../../images/thobe.PNG"));
+var _60 = _interopRequireDefault(require("../../images/apparel/3_24.png"));
 
-var _caesar = _interopRequireDefault(require("../../images/caesar.PNG"));
+var _61 = _interopRequireDefault(require("../../images/apparel/3_25.png"));
 
-var _diamondSweatshirt = _interopRequireDefault(require("../../images/diamond-sweatshirt.PNG"));
+var _62 = _interopRequireDefault(require("../../images/apparel/3_26.png"));
 
-var _holoZipHoodie = _interopRequireDefault(require("../../images/holo-zip-hoodie.PNG"));
+var _63 = _interopRequireDefault(require("../../images/apparel/3_27.png"));
 
-var _vaderSArmor = _interopRequireDefault(require("../../images/vader's-armor.PNG"));
+var _64 = _interopRequireDefault(require("../../images/apparel/3_28.png"));
 
-var _lavaSet = _interopRequireDefault(require("../../images/lava-set.PNG"));
+var _65 = _interopRequireDefault(require("../../images/apparel/3_29.png"));
 
-var _smirk = _interopRequireDefault(require("../../images/smirk.PNG"));
+var _66 = _interopRequireDefault(require("../../images/mouth/4_1.png"));
 
-var _grin = _interopRequireDefault(require("../../images/grin.PNG"));
+var _67 = _interopRequireDefault(require("../../images/mouth/4_2.png"));
 
-var _surprised = _interopRequireDefault(require("../../images/surprised.PNG"));
+var _68 = _interopRequireDefault(require("../../images/mouth/4_3.png"));
 
-var _tongueOut = _interopRequireDefault(require("../../images/tongue-out.PNG"));
+var _69 = _interopRequireDefault(require("../../images/mouth/4_4.png"));
 
-var _braces = _interopRequireDefault(require("../../images/braces.PNG"));
+var _70 = _interopRequireDefault(require("../../images/mouth/4_5.png"));
 
-var _mustache = _interopRequireDefault(require("../../images/mustache.PNG"));
+var _71 = _interopRequireDefault(require("../../images/mouth/4_6.png"));
 
-var _beard = _interopRequireDefault(require("../../images/beard.PNG"));
+var _72 = _interopRequireDefault(require("../../images/mouth/4_7.png"));
 
-var _sendLove = _interopRequireDefault(require("../../images/send-love.PNG"));
+var _73 = _interopRequireDefault(require("../../images/mouth/4_8.png"));
 
-var _partyHorn = _interopRequireDefault(require("../../images/party-horn.PNG"));
+var _74 = _interopRequireDefault(require("../../images/mouth/4_9.png"));
 
-var _redBandana = _interopRequireDefault(require("../../images/red-bandana.PNG"));
+var _75 = _interopRequireDefault(require("../../images/mouth/4_10.png"));
 
-var _blueBandana = _interopRequireDefault(require("../../images/blue-bandana.PNG"));
+var _76 = _interopRequireDefault(require("../../images/mouth/4_11.png"));
 
-var _cubanCigar = _interopRequireDefault(require("../../images/cuban-cigar.PNG"));
+var _77 = _interopRequireDefault(require("../../images/mouth/4_12.png"));
 
-var _vampireTeeth = _interopRequireDefault(require("../../images/vampire-teeth.PNG"));
+var _78 = _interopRequireDefault(require("../../images/mouth/4_13.png"));
 
-var _joker = _interopRequireDefault(require("../../images/joker.PNG"));
+var _79 = _interopRequireDefault(require("../../images/mouth/4_14.png"));
 
-var _diamondGrillz = _interopRequireDefault(require("../../images/diamond-grillz.PNG"));
+var _80 = _interopRequireDefault(require("../../images/mouth/4_15.png"));
 
-var _elonMusk = _interopRequireDefault(require("../../images/elon-musk.PNG"));
+var _81 = _interopRequireDefault(require("../../images/mouth/4_16.png"));
 
-var _blackFace = _interopRequireDefault(require("../../images/black-face.PNG"));
+var _82 = _interopRequireDefault(require("../../images/face/5_1.png"));
 
-var _brownFace = _interopRequireDefault(require("../../images/brown-face.PNG"));
+var _83 = _interopRequireDefault(require("../../images/face/5_2.png"));
 
-var _blueFace = _interopRequireDefault(require("../../images/blue-face.PNG"));
+var _84 = _interopRequireDefault(require("../../images/face/5_3.png"));
 
-var _greenFace = _interopRequireDefault(require("../../images/green-face.PNG"));
+var _85 = _interopRequireDefault(require("../../images/face/5_4.png"));
 
-var _sunglasses = _interopRequireDefault(require("../../images/sunglasses.PNG"));
+var _86 = _interopRequireDefault(require("../../images/face/5_5.png"));
 
-var _nerdViper = _interopRequireDefault(require("../../images/nerd-viper.PNG"));
+var _87 = _interopRequireDefault(require("../../images/face/5_6.png"));
 
-var _solanaSummer = _interopRequireDefault(require("../../images/solana-summer.PNG"));
+var _88 = _interopRequireDefault(require("../../images/face/5_7.png"));
 
-var _freckles = _interopRequireDefault(require("../../images/freckles.PNG"));
+var _89 = _interopRequireDefault(require("../../images/face/5_8.png"));
 
-var _exhausted = _interopRequireDefault(require("../../images/exhausted.PNG"));
+var _90 = _interopRequireDefault(require("../../images/face/5_9.png"));
 
-var _nerdGlasses = _interopRequireDefault(require("../../images/nerd-glasses.PNG"));
+var _91 = _interopRequireDefault(require("../../images/face/5_10.png"));
 
-var _future = _interopRequireDefault(require("../../images/future.PNG"));
+var _92 = _interopRequireDefault(require("../../images/face/5_11.png"));
 
-var _psycho = _interopRequireDefault(require("../../images/psycho.PNG"));
+var _93 = _interopRequireDefault(require("../../images/face/5_12.png"));
 
-var _diamondFace = _interopRequireDefault(require("../../images/diamond-face.PNG"));
+var _94 = _interopRequireDefault(require("../../images/face/5_13.png"));
 
-var _laserFace = _interopRequireDefault(require("../../images/laser-face.PNG"));
+var _95 = _interopRequireDefault(require("../../images/face/5_14.png"));
 
-var _bitcoin = _interopRequireDefault(require("../../images/bitcoin.PNG"));
+var _96 = _interopRequireDefault(require("../../images/face/5_15.png"));
 
-var _rainbow = _interopRequireDefault(require("../../images/rainbow.PNG"));
+var _97 = _interopRequireDefault(require("../../images/face/5_16.png"));
 
-var _onyx = _interopRequireDefault(require("../../images/onyx.PNG"));
+var _98 = _interopRequireDefault(require("../../images/face/5_17.png"));
 
-var _none = _interopRequireDefault(require("../../images/none.PNG"));
+var _none = _interopRequireDefault(require("../../images/casual/none.PNG"));
 
-var _blackBeanie = _interopRequireDefault(require("../../images/black-beanie.PNG"));
+var _99 = _interopRequireDefault(require("../../images/head/6_2.png"));
 
-var _orangeBeanie = _interopRequireDefault(require("../../images/orange-beanie.PNG"));
+var _100 = _interopRequireDefault(require("../../images/head/6_3.png"));
 
-var _beigeBeanie = _interopRequireDefault(require("../../images/beige-beanie.PNG"));
+var _101 = _interopRequireDefault(require("../../images/head/6_4.png"));
 
-var _snapback = _interopRequireDefault(require("../../images/snapback.PNG"));
+var _102 = _interopRequireDefault(require("../../images/head/6_5.png"));
 
-var _flatCap = _interopRequireDefault(require("../../images/flat-cap.PNG"));
+var _103 = _interopRequireDefault(require("../../images/head/6_6.png"));
 
-var _headset = _interopRequireDefault(require("../../images/headset.PNG"));
+var _104 = _interopRequireDefault(require("../../images/head/6_7.png"));
 
-var _solanaHeadband = _interopRequireDefault(require("../../images/solana-headband.PNG"));
+var _105 = _interopRequireDefault(require("../../images/head/6_8.png"));
 
-var _quitCryptoHat = _interopRequireDefault(require("../../images/quit-crypto-hat.PNG"));
+var _106 = _interopRequireDefault(require("../../images/head/6_9.png"));
 
-var _devilHorns = _interopRequireDefault(require("../../images/devil-horns.PNG"));
+var _107 = _interopRequireDefault(require("../../images/head/6_10.png"));
 
-var _bowlCut = _interopRequireDefault(require("../../images/bowl-cut.PNG"));
+var _108 = _interopRequireDefault(require("../../images/head/6_11.png"));
 
-var _crown = _interopRequireDefault(require("../../images/crown.PNG"));
+var _109 = _interopRequireDefault(require("../../images/head/6_12.png"));
 
-var _spaceHelmet = _interopRequireDefault(require("../../images/space-helmet.PNG"));
+var _110 = _interopRequireDefault(require("../../images/head/6_13.png"));
 
-var _keffiyeh = _interopRequireDefault(require("../../images/keffiyeh.PNG"));
+var _111 = _interopRequireDefault(require("../../images/head/6_14.png"));
 
-var _diamondHeadset = _interopRequireDefault(require("../../images/diamond-headset.PNG"));
+var _112 = _interopRequireDefault(require("../../images/head/6_15.png"));
 
-var _warBonnet = _interopRequireDefault(require("../../images/war-bonnet.PNG"));
+var _113 = _interopRequireDefault(require("../../images/head/6_16.png"));
 
-var _superBrain = _interopRequireDefault(require("../../images/super-brain.PNG"));
+var _114 = _interopRequireDefault(require("../../images/head/6_17.png"));
 
-var _laurelWreath = _interopRequireDefault(require("../../images/laurel-wreath.PNG"));
+var _115 = _interopRequireDefault(require("../../images/head/6_18.png"));
 
-var _holoHalo = _interopRequireDefault(require("../../images/holo-halo.PNG"));
+var _116 = _interopRequireDefault(require("../../images/head/6_19.png"));
 
-var _vaderSHelmet = _interopRequireDefault(require("../../images/vader's-helmet.PNG"));
+var _117 = _interopRequireDefault(require("../../images/head/6_20.png"));
 
-var _samSHair = _interopRequireDefault(require("../../images/sam's-hair.PNG"));
+var _118 = _interopRequireDefault(require("../../images/head/6_21.png"));
 
-var _peace = _interopRequireDefault(require("../../images/peace.PNG"));
+var _119 = _interopRequireDefault(require("../../images/extra/7_2.png"));
 
-var _coffee = _interopRequireDefault(require("../../images/coffee.PNG"));
+var _120 = _interopRequireDefault(require("../../images/extra/7_3.png"));
 
-var _cash = _interopRequireDefault(require("../../images/cash.PNG"));
+var _121 = _interopRequireDefault(require("../../images/extra/7_4.png"));
 
-var _solanaChain = _interopRequireDefault(require("../../images/solana-chain.PNG"));
+var _122 = _interopRequireDefault(require("../../images/extra/7_5.png"));
 
-var _blueLightSaber = _interopRequireDefault(require("../../images/blue-light-saber.PNG"));
+var _123 = _interopRequireDefault(require("../../images/extra/7_6.png"));
 
-var _redLightSaber = _interopRequireDefault(require("../../images/red-light-saber.PNG"));
+var _124 = _interopRequireDefault(require("../../images/extra/7_7.png"));
 
-var _cape = _interopRequireDefault(require("../../images/cape.PNG"));
+var _125 = _interopRequireDefault(require("../../images/extra/7_8.png"));
 
-var _btcChain = _interopRequireDefault(require("../../images/btc-chain.PNG"));
+var _126 = _interopRequireDefault(require("../../images/extra/7_9.png"));
 
-var _jetpack = _interopRequireDefault(require("../../images/jetpack.PNG"));
+var _127 = _interopRequireDefault(require("../../images/extra/7_10.png"));
 
-var _nerdChain = _interopRequireDefault(require("../../images/nerd-chain.PNG"));
+var _128 = _interopRequireDefault(require("../../images/extra/7_11.png"));
 
-var _holoWings = _interopRequireDefault(require("../../images/holo-wings.PNG"));
+var _129 = _interopRequireDefault(require("../../images/extra/7_12.png"));
 
-var _holoChart = _interopRequireDefault(require("../../images/holo-chart.PNG"));
+var _130 = _interopRequireDefault(require("../../images/extra/7_13.png"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -45605,127 +45605,127 @@ function Main() {
       description: "This is background category for the background of user.",
       attributes: [{
         name: "salmon",
-        img: _salmon.default,
+        img: _.default,
         rarity_no: "572",
         rarity: "5,663"
       }, {
         name: "navy",
-        img: _navy.default,
+        img: _2.default,
         rarity_no: "572",
         rarity: "5,663"
       }, {
         name: "sky blue",
-        img: _skyBlue.default,
+        img: _3.default,
         rarity_no: "572",
         rarity: "5,663"
       }, {
         name: "lemon",
-        img: _lemon.default,
+        img: _4.default,
         rarity_no: "572",
         rarity: "5,663"
       }, {
         name: "pale green",
-        img: _paleGreen.default,
+        img: _5.default,
         rarity_no: "572",
         rarity: "5,663"
       }, {
         name: "dark green",
-        img: _darkGreen.default,
+        img: _6.default,
         rarity_no: "572",
         rarity: "5,663"
       }, {
         name: "pearl",
-        img: _pearl.default,
+        img: _7.default,
         rarity_no: "571",
         rarity: "5,653"
       }, {
         name: "chocolate",
-        img: _chocolate.default,
+        img: _8.default,
         rarity_no: "571",
         rarity: "5,653"
       }, {
         name: "black",
-        img: _black.default,
+        img: _9.default,
         rarity_no: "571",
         rarity: "5,653"
       }, {
         name: "dim grey",
-        img: _dimGrey.default,
+        img: _10.default,
         rarity_no: "571",
         rarity: "5,653"
       }, {
         name: "gainsboro",
-        img: _gainsboro.default,
+        img: _11.default,
         rarity_no: "571",
         rarity: "5,653"
       }, {
         name: "beige",
-        img: _beige.default,
+        img: _12.default,
         rarity_no: "571",
         rarity: "5,653"
       }, {
         name: "violet",
-        img: _violet.default,
+        img: _13.default,
         rarity_no: "571",
         rarity: "5,653"
       }, {
         name: "coral",
-        img: _coral.default,
+        img: _14.default,
         rarity_no: "571",
         rarity: "5,653"
       }, {
         name: "water",
-        img: _water.default,
+        img: _15.default,
         rarity_no: "140",
         rarity: "4,950"
       }, {
         name: "fire",
-        img: _fire.default,
+        img: _16.default,
         rarity_no: "140",
         rarity: "4,950"
       }, {
         name: "solana",
-        img: _solana.default,
+        img: _17.default,
         rarity_no: "140",
         rarity: "4,950"
       }, {
         name: "dawn",
-        img: _dawn.default,
+        img: _18.default,
         rarity_no: "140",
         rarity: "4,950"
       }, {
         name: "nerd face",
-        img: _nerdFace.default,
+        img: _19.default,
         rarity_no: "24",
         rarity: "0,545"
       }, {
         name: "deep space",
-        img: _deepSpace.default,
+        img: _20.default,
         rarity_no: "15",
         rarity: "0,149"
       }, {
         name: "matrix",
-        img: _matrix.default,
+        img: _21.default,
         rarity_no: "12",
         rarity: "0,119"
       }, {
         name: "trading setup",
-        img: _tradingSetup.default,
+        img: _22.default,
         rarity_no: "9",
         rarity: "0,089"
       }, {
         name: "holo sphere",
-        img: _holoSphere.default,
+        img: _23.default,
         rarity_no: "6",
         rarity: "0,059"
       }, {
         name: "graffiti",
-        img: _graffiti.default,
+        img: _24.default,
         rarity_no: "3",
         rarity: "0,030"
       }, {
         name: "pizza4Life",
-        img: _pizza4life.default,
+        img: _25.default,
         rarity_no: "1",
         rarity: "0,010"
       }]
@@ -45735,57 +45735,57 @@ function Main() {
       description: "This is skin category for the user skin.",
       attributes: [{
         name: "light blonde",
-        img: _lightBlonde.default,
+        img: _26.default,
         rarity_no: "3577",
         rarity: "35,412"
       }, {
         name: "light black",
-        img: _lightBlack.default,
+        img: _27.default,
         rarity_no: "3577",
         rarity: "35,412"
       }, {
         name: "mid",
-        img: _mid.default,
+        img: _28.default,
         rarity_no: "1230",
         rarity: "12,177"
       }, {
         name: "dark",
-        img: _dark.default,
+        img: _29.default,
         rarity_no: "1230",
         rarity: "12,177"
       }, {
         name: "puberty",
-        img: _puberty.default,
+        img: _30.default,
         rarity_no: "134",
         rarity: "2,317"
       }, {
         name: "phantom",
-        img: _phantom.default,
+        img: _31.default,
         rarity_no: "199",
         rarity: "0,980"
       }, {
         name: "zombie",
-        img: _zombie.default,
+        img: _32.default,
         rarity_no: "199",
         rarity: "0,980"
       }, {
         name: "cyborg",
-        img: _cyborg.default,
+        img: _33.default,
         rarity_no: "28",
         rarity: "0,277"
       }, {
         name: "intersteller",
-        img: _intersteller.default,
+        img: _34.default,
         rarity_no: "18",
         rarity: "0,178"
       }, {
         name: "slime",
-        img: _slime.default,
+        img: _35.default,
         rarity_no: "8",
         rarity: "0,079"
       }, {
         name: "ai",
-        img: _ai.default,
+        img: _36.default,
         rarity_no: "1",
         rarity: "0,010"
       }]
@@ -45795,147 +45795,147 @@ function Main() {
       description: "This is apparel category for the user.",
       attributes: [{
         name: "zip hoodie",
-        img: _zipHoodie.default,
+        img: _37.default,
         rarity_no: "687",
         rarity: "6,801"
       }, {
         name: "white Tshirt",
-        img: _whiteTshirt.default,
+        img: _38.default,
         rarity_no: "682",
         rarity: "6,752"
       }, {
         name: "black Tshirt",
-        img: _blackTshirt.default,
+        img: _39.default,
         rarity_no: "682",
         rarity: "6,752"
       }, {
         name: "white Shirt",
-        img: _whiteShirt.default,
+        img: _40.default,
         rarity_no: "682",
         rarity: "6,752"
       }, {
         name: "suit vest",
-        img: _suitVest.default,
+        img: _41.default,
         rarity_no: "682",
         rarity: "6,752"
       }, {
         name: "sttng uniform",
-        img: _sttngUniform.default,
+        img: _42.default,
         rarity_no: "682",
         rarity: "6,752"
       }, {
         name: "ma-1",
-        img: _ma.default,
+        img: _43.default,
         rarity_no: "682",
         rarity: "6,752"
       }, {
         name: "buffer jacket",
-        img: _bufferJacket.default,
+        img: _44.default,
         rarity_no: "682",
         rarity: "6,752"
       }, {
         name: "wizard robe",
-        img: _wizardRobe.default,
+        img: _45.default,
         rarity_no: "682",
         rarity: "6,752"
       }, {
         name: "college jacket",
-        img: _collegeJacket.default,
+        img: _46.default,
         rarity_no: "682",
         rarity: "6,752"
       }, {
         name: "plaid shirt",
-        img: _plaidShirt.default,
+        img: _47.default,
         rarity_no: "682",
         rarity: "6,752"
       }, {
         name: "denim jacket",
-        img: _denimJacket.default,
+        img: _48.default,
         rarity_no: "615",
         rarity: "6,089"
       }, {
         name: "track suit",
-        img: _tracksuit.default,
+        img: _49.default,
         rarity_no: "543",
         rarity: "5,376"
       }, {
         name: "turtle neck",
-        img: _turtleneck.default,
+        img: _50.default,
         rarity_no: "58",
         rarity: "2,554"
       }, {
         name: "tie die shirt",
-        img: _tieDieTshirt.default,
+        img: _51.default,
         rarity_no: "103",
         rarity: "2,010"
       }, {
         name: "solana uniform",
-        img: _solanaUniform.default,
+        img: _52.default,
         rarity_no: "148",
         rarity: "1,871"
       }, {
         name: "hawaiian shirt",
-        img: _hawaiianShirt.default,
+        img: _53.default,
         rarity_no: "136",
         rarity: "1,742"
       }, {
         name: "b-ball jersey",
-        img: _bBallJersey.default,
+        img: _54.default,
         rarity_no: "151",
         rarity: "1,485"
       }, {
         name: "soccer jersey",
-        img: _soccerJersey.default,
+        img: _55.default,
         rarity_no: "163",
         rarity: "1,317"
       }, {
         name: "biker jacket",
-        img: _bikerJacket.default,
+        img: _56.default,
         rarity_no: "186",
         rarity: "0,851"
       }, {
         name: "slip over",
-        img: _slipOver.default,
+        img: _57.default,
         rarity_no: "172",
         rarity: "0,713"
       }, {
         name: "suit",
-        img: _suit.default,
+        img: _58.default,
         rarity_no: "159",
         rarity: "0,505"
       }, {
         name: "space suit",
-        img: _spaceSuit.default,
+        img: _59.default,
         rarity_no: "35",
         rarity: "0,347"
       }, {
         name: "thobe",
-        img: _thobe.default,
+        img: _60.default,
         rarity_no: "30",
         rarity: "0,297"
       }, {
         name: "caesar",
-        img: _caesar.default,
+        img: _61.default,
         rarity_no: "22",
         rarity: "0,218"
       }, {
         name: "diamond sweatshirt",
-        img: _diamondSweatshirt.default,
+        img: _62.default,
         rarity_no: "28",
         rarity: "0,158"
       }, {
         name: "holo zip hoodie",
-        img: _holoZipHoodie.default,
+        img: _63.default,
         rarity_no: "11",
         rarity: "0,109"
       }, {
         name: "vader's armor",
-        img: _vaderSArmor.default,
+        img: _64.default,
         rarity_no: "3",
         rarity: "0,030"
       }, {
         name: "lava set",
-        img: _lavaSet.default,
+        img: _65.default,
         rarity_no: "1",
         rarity: "0,010"
       }]
@@ -45945,82 +45945,82 @@ function Main() {
       description: "This is mouth category for the user mouth.",
       attributes: [{
         name: "smirk",
-        img: _smirk.default,
+        img: _66.default,
         rarity_no: "2822",
         rarity: "27,938"
       }, {
         name: "grin",
-        img: _grin.default,
+        img: _67.default,
         rarity_no: "2822",
         rarity: "27,938"
       }, {
         name: "surprised",
-        img: _surprised.default,
+        img: _68.default,
         rarity_no: "2822",
         rarity: "27,938"
       }, {
         name: "tongue out",
-        img: _tongueOut.default,
+        img: _69.default,
         rarity_no: "146",
         rarity: "3,425"
       }, {
         name: "braces",
-        img: _braces.default,
+        img: _70.default,
         rarity_no: "112",
         rarity: "3,089"
       }, {
         name: "mustache",
-        img: _mustache.default,
+        img: _71.default,
         rarity_no: "140",
         rarity: "240"
       }, {
         name: "beard",
-        img: _beard.default,
+        img: _72.default,
         rarity_no: "130",
         rarity: "1,683"
       }, {
         name: "send love",
-        img: _sendLove.default,
+        img: _73.default,
         rarity_no: "123",
         rarity: "1,495"
       }, {
         name: "party horn",
-        img: _partyHorn.default,
+        img: _74.default,
         rarity_no: "154",
         rarity: "1,228"
       }, {
         name: "red bandana",
-        img: _redBandana.default,
+        img: _75.default,
         rarity_no: "184",
         rarity: "0,832"
       }, {
         name: "blue bandana",
-        img: _blueBandana.default,
+        img: _76.default,
         rarity_no: "184",
         rarity: "0,832"
       }, {
         name: "cuban cigar",
-        img: _cubanCigar.default,
+        img: _77.default,
         rarity_no: "155",
         rarity: "0,545"
       }, {
         name: "vampire teeth",
-        img: _vampireTeeth.default,
+        img: _78.default,
         rarity_no: "236",
         rarity: "0,356"
       }, {
         name: "joker",
-        img: _joker.default,
+        img: _79.default,
         rarity_no: "21",
         rarity: "0,208"
       }, {
         name: "diamond grillz",
-        img: _diamondGrillz.default,
+        img: _80.default,
         rarity_no: "13 ",
         rarity: "0,129"
       }, {
         name: "elon musk",
-        img: _elonMusk.default,
+        img: _81.default,
         rarity_no: "1 ",
         rarity: "0,010"
       }]
@@ -46030,87 +46030,87 @@ function Main() {
       description: "This is face category for the user face.",
       attributes: [{
         name: "black",
-        img: _blackFace.default,
+        img: _82.default,
         rarity_no: "2009",
         rarity: "19,889"
       }, {
         name: "brown",
-        img: _brownFace.default,
+        img: _83.default,
         rarity_no: "2007",
         rarity: "19,869"
       }, {
         name: "blue",
-        img: _blueFace.default,
+        img: _84.default,
         rarity_no: "2007",
         rarity: "19,869"
       }, {
         name: "green",
-        img: _greenFace.default,
+        img: _85.default,
         rarity_no: "2007",
         rarity: "19,869"
       }, {
         name: "sunglasses",
-        img: _sunglasses.default,
+        img: _86.default,
         rarity_no: "100",
         rarity: "3,960"
       }, {
         name: "nerd viper",
-        img: _nerdViper.default,
+        img: _87.default,
         rarity_no: "126",
         rarity: "3,227"
       }, {
         name: "solana viper",
-        img: _solanaSummer.default,
+        img: _88.default,
         rarity_no: "100",
         rarity: "2,970"
       }, {
         name: "freckles",
-        img: _freckles.default,
+        img: _89.default,
         rarity_no: "89",
         rarity: "2,861"
       }, {
         name: "exhausted",
-        img: _exhausted.default,
+        img: _90.default,
         rarity_no: "133",
         rarity: "2,307"
       }, {
         name: "nerd glasses",
-        img: _nerdGlasses.default,
+        img: _91.default,
         rarity_no: "52",
         rarity: "1,505"
       }, {
         name: "future",
-        img: _future.default,
+        img: _92.default,
         rarity_no: "151",
         rarity: "1,099"
       }, {
         name: "psycho",
-        img: _psycho.default,
+        img: _93.default,
         rarity_no: "290",
         rarity: "0,891"
       }, {
         name: "diamond",
-        img: _diamondFace.default,
+        img: _94.default,
         rarity_no: "278",
         rarity: "0,772"
       }, {
         name: "laser",
-        img: _laserFace.default,
+        img: _95.default,
         rarity_no: "250",
         rarity: "0,495"
       }, {
         name: "bitcoin",
-        img: _bitcoin.default,
+        img: _96.default,
         rarity_no: "27",
         rarity: "0,267"
       }, {
         name: "rainbow",
-        img: _rainbow.default,
+        img: _97.default,
         rarity_no: "14",
         rarity: "0,139"
       }, {
         name: "onyx",
-        img: _onyx.default,
+        img: _98.default,
         rarity_no: "1",
         rarity: "0,010"
       }]
@@ -46125,102 +46125,102 @@ function Main() {
         rarity: "15,533"
       }, {
         name: "black beanie",
-        img: _blackBeanie.default,
+        img: _99.default,
         rarity_no: "1567",
         rarity: "15,513"
       }, {
         name: "orange beanie",
-        img: _orangeBeanie.default,
+        img: _100.default,
         rarity_no: "1567",
         rarity: "15,513"
       }, {
         name: "beige beanie",
-        img: _beigeBeanie.default,
+        img: _101.default,
         rarity_no: "1567",
         rarity: "15,513"
       }, {
         name: "snap back",
-        img: _snapback.default,
+        img: _102.default,
         rarity_no: "1567",
         rarity: "15,513"
       }, {
         name: "flat cap",
-        img: _flatCap.default,
+        img: _103.default,
         rarity_no: "1567",
         rarity: "15,513"
       }, {
         name: "headset",
-        img: _headset.default,
+        img: _104.default,
         rarity_no: "151",
         rarity: "1,485"
       }, {
         name: "solana headband",
-        img: _solanaHeadband.default,
+        img: _105.default,
         rarity_no: "220",
         rarity: "1,188"
       }, {
         name: "quit crypto hat",
-        img: _quitCryptoHat.default,
+        img: _106.default,
         rarity_no: "201",
         rarity: "1,000"
       }, {
         name: "devil horns",
-        img: _devilHorns.default,
+        img: _107.default,
         rarity_no: "266",
         rarity: "0,653"
       }, {
         name: "bowl cut",
-        img: _bowlCut.default,
+        img: _108.default,
         rarity_no: "163",
         rarity: "0,624"
       }, {
         name: "crown",
-        img: _crown.default,
+        img: _109.default,
         rarity_no: "250",
         rarity: "0,495"
       }, {
         name: "space helmet",
-        img: _spaceHelmet.default,
+        img: _110.default,
         rarity_no: "35",
         rarity: "0,347"
       }, {
         name: "keffiyeh",
-        img: _keffiyeh.default,
+        img: _111.default,
         rarity_no: "30",
         rarity: "0,297"
       }, {
         name: "diamond headset",
-        img: _diamondHeadset.default,
+        img: _112.default,
         rarity_no: "27",
         rarity: "0,267"
       }, {
         name: "war bonnet",
-        img: _warBonnet.default,
+        img: _113.default,
         rarity_no: "22",
         rarity: "0,218"
       }, {
         name: "super brain",
-        img: _superBrain.default,
+        img: _114.default,
         rarity_no: "20",
         rarity: "0,158"
       }, {
         name: "laurel wreath",
-        img: _laurelWreath.default,
+        img: _115.default,
         rarity_no: "9",
         rarity: "0,158"
       }, {
         name: "holo halo",
-        img: _holoHalo.default,
+        img: _116.default,
         rarity_no: "4",
         rarity: "0,040"
       }, {
         name: "vader's helmet",
-        img: _vaderSHelmet.default,
+        img: _117.default,
         rarity_no: "3",
         rarity: "0,030"
       }, {
         name: "sam's hair",
-        img: _samSHair.default,
+        img: _118.default,
         rarity_no: "1",
         rarity: "0,010"
       }]
@@ -46235,62 +46235,62 @@ function Main() {
         rarity: "82,002"
       }, {
         name: "peace",
-        img: _peace.default,
+        img: _119.default,
         rarity_no: "722",
         rarity: "7,148"
       }, {
         name: "coffee",
-        img: _coffee.default,
+        img: _120.default,
         rarity_no: "126",
         rarity: "4,217"
       }, {
         name: "cash",
-        img: _cash.default,
+        img: _121.default,
         rarity_no: "108",
         rarity: "3,049"
       }, {
         name: "solana chain",
-        img: _solanaChain.default,
+        img: _122.default,
         rarity_no: "132",
         rarity: "1,802"
       }, {
         name: "blue lightsaber",
-        img: _blueLightSaber.default,
+        img: _123.default,
         rarity_no: "161",
         rarity: "0,604"
       }, {
         name: "red lightsaber",
-        img: _redLightSaber.default,
+        img: _124.default,
         rarity_no: "261",
         rarity: "0,604"
       }, {
         name: "cape",
-        img: _cape.default,
+        img: _125.default,
         rarity_no: "27",
         rarity: "0,267"
       }, {
         name: "btc chain",
-        img: _btcChain.default,
+        img: _126.default,
         rarity_no: "12",
         rarity: "0,119"
       }, {
         name: "jet pack",
-        img: _jetpack.default,
+        img: _127.default,
         rarity_no: "9",
         rarity: "0,089"
       }, {
         name: "nerd chain",
-        img: _nerdChain.default,
+        img: _128.default,
         rarity_no: "6",
         rarity: "0,059"
       }, {
         name: "holo wings",
-        img: _holoWings.default,
+        img: _129.default,
         rarity_no: "3",
         rarity: "0,030"
       }, {
         name: "holo chart",
-        img: _holoChart.default,
+        img: _130.default,
         rarity_no: "1",
         rarity: "0,010"
       }]
@@ -46473,7 +46473,7 @@ var desktopData = {
   cardTypeMainTweetDarkModeFalseYourTProps: cardTypeMainTweetDarkModeFalseYourTData,
   fOOTERProps: fOOTERData
 };
-},{"react":"node_modules/react/index.js","./Main.css":"components/Main/Main.css","../../redux/reducers/general":"redux/reducers/general.js","react-redux":"node_modules/react-redux/es/index.js","../Desktop":"components/Desktop/index.jsx","../../images/salmon.PNG":"images/salmon.PNG","../../images/navy.PNG":"images/navy.PNG","../../images/sky-blue.PNG":"images/sky-blue.PNG","../../images/lemon.PNG":"images/lemon.PNG","../../images/pale-green.PNG":"images/pale-green.PNG","../../images/dark-green.PNG":"images/dark-green.PNG","../../images/pearl.PNG":"images/pearl.PNG","../../images/chocolate.PNG":"images/chocolate.PNG","../../images/black.PNG":"images/black.PNG","../../images/dim-grey.PNG":"images/dim-grey.PNG","../../images/gainsboro.PNG":"images/gainsboro.PNG","../../images/beige.PNG":"images/beige.PNG","../../images/violet.PNG":"images/violet.PNG","../../images/coral.PNG":"images/coral.PNG","../../images/water.PNG":"images/water.PNG","../../images/fire.PNG":"images/fire.PNG","../../images/solana.PNG":"images/solana.PNG","../../images/dawn.PNG":"images/dawn.PNG","../../images/nerd-face.PNG":"images/nerd-face.PNG","../../images/deep-space.PNG":"images/deep-space.PNG","../../images/matrix.PNG":"images/matrix.PNG","../../images/trading-setup.PNG":"images/trading-setup.PNG","../../images/holo-sphere.PNG":"images/holo-sphere.PNG","../../images/graffiti.PNG":"images/graffiti.PNG","../../images/pizza4life.PNG":"images/pizza4life.PNG","../../images/light-blonde.PNG":"images/light-blonde.PNG","../../images/light-black.PNG":"images/light-black.PNG","../../images/mid.PNG":"images/mid.PNG","../../images/dark.PNG":"images/dark.PNG","../../images/puberty.PNG":"images/puberty.PNG","../../images/phantom.PNG":"images/phantom.PNG","../../images/zombie.PNG":"images/zombie.PNG","../../images/cyborg.PNG":"images/cyborg.PNG","../../images/intersteller.PNG":"images/intersteller.PNG","../../images/slime.PNG":"images/slime.PNG","../../images/ai.PNG":"images/ai.PNG","../../images/zip-hoodie.PNG":"images/zip-hoodie.PNG","../../images/white-tshirt.PNG":"images/white-tshirt.PNG","../../images/black-tshirt.PNG":"images/black-tshirt.PNG","../../images/white-shirt.PNG":"images/white-shirt.PNG","../../images/suit-vest.PNG":"images/suit-vest.PNG","../../images/sttng-uniform.PNG":"images/sttng-uniform.PNG","../../images/ma-1.PNG":"images/ma-1.PNG","../../images/buffer-jacket.PNG":"images/buffer-jacket.PNG","../../images/wizard-robe.PNG":"images/wizard-robe.PNG","../../images/college-jacket.PNG":"images/college-jacket.PNG","../../images/plaid-shirt.PNG":"images/plaid-shirt.PNG","../../images/denim-jacket.PNG":"images/denim-jacket.PNG","../../images/tracksuit.PNG":"images/tracksuit.PNG","../../images/turtleneck.PNG":"images/turtleneck.PNG","../../images/tie-die-tshirt.PNG":"images/tie-die-tshirt.PNG","../../images/solana-uniform.PNG":"images/solana-uniform.PNG","../../images/hawaiian-shirt.PNG":"images/hawaiian-shirt.PNG","../../images/b-ball-jersey.PNG":"images/b-ball-jersey.PNG","../../images/soccer-jersey.PNG":"images/soccer-jersey.PNG","../../images/biker-jacket.PNG":"images/biker-jacket.PNG","../../images/slip-over.PNG":"images/slip-over.PNG","../../images/suit.PNG":"images/suit.PNG","../../images/space-suit.PNG":"images/space-suit.PNG","../../images/thobe.PNG":"images/thobe.PNG","../../images/caesar.PNG":"images/caesar.PNG","../../images/diamond-sweatshirt.PNG":"images/diamond-sweatshirt.PNG","../../images/holo-zip-hoodie.PNG":"images/holo-zip-hoodie.PNG","../../images/vader's-armor.PNG":"images/vader's-armor.PNG","../../images/lava-set.PNG":"images/lava-set.PNG","../../images/smirk.PNG":"images/smirk.PNG","../../images/grin.PNG":"images/grin.PNG","../../images/surprised.PNG":"images/surprised.PNG","../../images/tongue-out.PNG":"images/tongue-out.PNG","../../images/braces.PNG":"images/braces.PNG","../../images/mustache.PNG":"images/mustache.PNG","../../images/beard.PNG":"images/beard.PNG","../../images/send-love.PNG":"images/send-love.PNG","../../images/party-horn.PNG":"images/party-horn.PNG","../../images/red-bandana.PNG":"images/red-bandana.PNG","../../images/blue-bandana.PNG":"images/blue-bandana.PNG","../../images/cuban-cigar.PNG":"images/cuban-cigar.PNG","../../images/vampire-teeth.PNG":"images/vampire-teeth.PNG","../../images/joker.PNG":"images/joker.PNG","../../images/diamond-grillz.PNG":"images/diamond-grillz.PNG","../../images/elon-musk.PNG":"images/elon-musk.PNG","../../images/black-face.PNG":"images/black-face.PNG","../../images/brown-face.PNG":"images/brown-face.PNG","../../images/blue-face.PNG":"images/blue-face.PNG","../../images/green-face.PNG":"images/green-face.PNG","../../images/sunglasses.PNG":"images/sunglasses.PNG","../../images/nerd-viper.PNG":"images/nerd-viper.PNG","../../images/solana-summer.PNG":"images/solana-summer.PNG","../../images/freckles.PNG":"images/freckles.PNG","../../images/exhausted.PNG":"images/exhausted.PNG","../../images/nerd-glasses.PNG":"images/nerd-glasses.PNG","../../images/future.PNG":"images/future.PNG","../../images/psycho.PNG":"images/psycho.PNG","../../images/diamond-face.PNG":"images/diamond-face.PNG","../../images/laser-face.PNG":"images/laser-face.PNG","../../images/bitcoin.PNG":"images/bitcoin.PNG","../../images/rainbow.PNG":"images/rainbow.PNG","../../images/onyx.PNG":"images/onyx.PNG","../../images/none.PNG":"images/none.PNG","../../images/black-beanie.PNG":"images/black-beanie.PNG","../../images/orange-beanie.PNG":"images/orange-beanie.PNG","../../images/beige-beanie.PNG":"images/beige-beanie.PNG","../../images/snapback.PNG":"images/snapback.PNG","../../images/flat-cap.PNG":"images/flat-cap.PNG","../../images/headset.PNG":"images/headset.PNG","../../images/solana-headband.PNG":"images/solana-headband.PNG","../../images/quit-crypto-hat.PNG":"images/quit-crypto-hat.PNG","../../images/devil-horns.PNG":"images/devil-horns.PNG","../../images/bowl-cut.PNG":"images/bowl-cut.PNG","../../images/crown.PNG":"images/crown.PNG","../../images/space-helmet.PNG":"images/space-helmet.PNG","../../images/keffiyeh.PNG":"images/keffiyeh.PNG","../../images/diamond-headset.PNG":"images/diamond-headset.PNG","../../images/war-bonnet.PNG":"images/war-bonnet.PNG","../../images/super-brain.PNG":"images/super-brain.PNG","../../images/laurel-wreath.PNG":"images/laurel-wreath.PNG","../../images/holo-halo.PNG":"images/holo-halo.PNG","../../images/vader's-helmet.PNG":"images/vader's-helmet.PNG","../../images/sam's-hair.PNG":"images/sam's-hair.PNG","../../images/peace.PNG":"images/peace.PNG","../../images/coffee.PNG":"images/coffee.PNG","../../images/cash.PNG":"images/cash.PNG","../../images/solana-chain.PNG":"images/solana-chain.PNG","../../images/blue-light-saber.PNG":"images/blue-light-saber.PNG","../../images/red-light-saber.PNG":"images/red-light-saber.PNG","../../images/cape.PNG":"images/cape.PNG","../../images/btc-chain.PNG":"images/btc-chain.PNG","../../images/jetpack.PNG":"images/jetpack.PNG","../../images/nerd-chain.PNG":"images/nerd-chain.PNG","../../images/holo-wings.PNG":"images/holo-wings.PNG","../../images/holo-chart.PNG":"images/holo-chart.PNG"}],"node_modules/process/browser.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./Main.css":"components/Main/Main.css","../../redux/reducers/general":"redux/reducers/general.js","react-redux":"node_modules/react-redux/es/index.js","../Desktop":"components/Desktop/index.jsx","../../images/backgrounds/1_1.png":"images/backgrounds/1_1.png","../../images/backgrounds/1_2.png":"images/backgrounds/1_2.png","../../images/backgrounds/1_3.png":"images/backgrounds/1_3.png","../../images/backgrounds/1_4.png":"images/backgrounds/1_4.png","../../images/backgrounds/1_5.png":"images/backgrounds/1_5.png","../../images/backgrounds/1_6.png":"images/backgrounds/1_6.png","../../images/backgrounds/1_7.png":"images/backgrounds/1_7.png","../../images/backgrounds/1_8.png":"images/backgrounds/1_8.png","../../images/backgrounds/1_9.png":"images/backgrounds/1_9.png","../../images/backgrounds/1_10.png":"images/backgrounds/1_10.png","../../images/backgrounds/1_11.png":"images/backgrounds/1_11.png","../../images/backgrounds/1_12.png":"images/backgrounds/1_12.png","../../images/backgrounds/1_13.png":"images/backgrounds/1_13.png","../../images/backgrounds/1_14.png":"images/backgrounds/1_14.png","../../images/backgrounds/1_15.png":"images/backgrounds/1_15.png","../../images/backgrounds/1_16.png":"images/backgrounds/1_16.png","../../images/backgrounds/1_17.png":"images/backgrounds/1_17.png","../../images/backgrounds/1_18.png":"images/backgrounds/1_18.png","../../images/backgrounds/1_19.png":"images/backgrounds/1_19.png","../../images/backgrounds/1_20.png":"images/backgrounds/1_20.png","../../images/backgrounds/1_21.png":"images/backgrounds/1_21.png","../../images/backgrounds/1_22.png":"images/backgrounds/1_22.png","../../images/backgrounds/1_23.png":"images/backgrounds/1_23.png","../../images/backgrounds/1_24.png":"images/backgrounds/1_24.png","../../images/backgrounds/1_25.png":"images/backgrounds/1_25.png","../../images/skin/2_1.png":"images/skin/2_1.png","../../images/skin/2_2.png":"images/skin/2_2.png","../../images/skin/2_3.png":"images/skin/2_3.png","../../images/skin/2_4.png":"images/skin/2_4.png","../../images/skin/2_5.png":"images/skin/2_5.png","../../images/skin/2_6.png":"images/skin/2_6.png","../../images/skin/2_7.png":"images/skin/2_7.png","../../images/skin/2_8.png":"images/skin/2_8.png","../../images/skin/2_9.png":"images/skin/2_9.png","../../images/skin/2_10.png":"images/skin/2_10.png","../../images/skin/2_11.png":"images/skin/2_11.png","../../images/apparel/3_1.png":"images/apparel/3_1.png","../../images/apparel/3_2.png":"images/apparel/3_2.png","../../images/apparel/3_3.png":"images/apparel/3_3.png","../../images/apparel/3_4.png":"images/apparel/3_4.png","../../images/apparel/3_5.png":"images/apparel/3_5.png","../../images/apparel/3_6.png":"images/apparel/3_6.png","../../images/apparel/3_7.png":"images/apparel/3_7.png","../../images/apparel/3_8.png":"images/apparel/3_8.png","../../images/apparel/3_9.png":"images/apparel/3_9.png","../../images/apparel/3_10.png":"images/apparel/3_10.png","../../images/apparel/3_11.png":"images/apparel/3_11.png","../../images/apparel/3_12.png":"images/apparel/3_12.png","../../images/apparel/3_13.png":"images/apparel/3_13.png","../../images/apparel/3_14.png":"images/apparel/3_14.png","../../images/apparel/3_15.png":"images/apparel/3_15.png","../../images/apparel/3_16.png":"images/apparel/3_16.png","../../images/apparel/3_17.png":"images/apparel/3_17.png","../../images/apparel/3_18.png":"images/apparel/3_18.png","../../images/apparel/3_19.png":"images/apparel/3_19.png","../../images/apparel/3_20.png":"images/apparel/3_20.png","../../images/apparel/3_21.png":"images/apparel/3_21.png","../../images/apparel/3_22.png":"images/apparel/3_22.png","../../images/apparel/3_23.png":"images/apparel/3_23.png","../../images/apparel/3_24.png":"images/apparel/3_24.png","../../images/apparel/3_25.png":"images/apparel/3_25.png","../../images/apparel/3_26.png":"images/apparel/3_26.png","../../images/apparel/3_27.png":"images/apparel/3_27.png","../../images/apparel/3_28.png":"images/apparel/3_28.png","../../images/apparel/3_29.png":"images/apparel/3_29.png","../../images/mouth/4_1.png":"images/mouth/4_1.png","../../images/mouth/4_2.png":"images/mouth/4_2.png","../../images/mouth/4_3.png":"images/mouth/4_3.png","../../images/mouth/4_4.png":"images/mouth/4_4.png","../../images/mouth/4_5.png":"images/mouth/4_5.png","../../images/mouth/4_6.png":"images/mouth/4_6.png","../../images/mouth/4_7.png":"images/mouth/4_7.png","../../images/mouth/4_8.png":"images/mouth/4_8.png","../../images/mouth/4_9.png":"images/mouth/4_9.png","../../images/mouth/4_10.png":"images/mouth/4_10.png","../../images/mouth/4_11.png":"images/mouth/4_11.png","../../images/mouth/4_12.png":"images/mouth/4_12.png","../../images/mouth/4_13.png":"images/mouth/4_13.png","../../images/mouth/4_14.png":"images/mouth/4_14.png","../../images/mouth/4_15.png":"images/mouth/4_15.png","../../images/mouth/4_16.png":"images/mouth/4_16.png","../../images/face/5_1.png":"images/face/5_1.png","../../images/face/5_2.png":"images/face/5_2.png","../../images/face/5_3.png":"images/face/5_3.png","../../images/face/5_4.png":"images/face/5_4.png","../../images/face/5_5.png":"images/face/5_5.png","../../images/face/5_6.png":"images/face/5_6.png","../../images/face/5_7.png":"images/face/5_7.png","../../images/face/5_8.png":"images/face/5_8.png","../../images/face/5_9.png":"images/face/5_9.png","../../images/face/5_10.png":"images/face/5_10.png","../../images/face/5_11.png":"images/face/5_11.png","../../images/face/5_12.png":"images/face/5_12.png","../../images/face/5_13.png":"images/face/5_13.png","../../images/face/5_14.png":"images/face/5_14.png","../../images/face/5_15.png":"images/face/5_15.png","../../images/face/5_16.png":"images/face/5_16.png","../../images/face/5_17.png":"images/face/5_17.png","../../images/casual/none.PNG":"images/casual/none.PNG","../../images/head/6_2.png":"images/head/6_2.png","../../images/head/6_3.png":"images/head/6_3.png","../../images/head/6_4.png":"images/head/6_4.png","../../images/head/6_5.png":"images/head/6_5.png","../../images/head/6_6.png":"images/head/6_6.png","../../images/head/6_7.png":"images/head/6_7.png","../../images/head/6_8.png":"images/head/6_8.png","../../images/head/6_9.png":"images/head/6_9.png","../../images/head/6_10.png":"images/head/6_10.png","../../images/head/6_11.png":"images/head/6_11.png","../../images/head/6_12.png":"images/head/6_12.png","../../images/head/6_13.png":"images/head/6_13.png","../../images/head/6_14.png":"images/head/6_14.png","../../images/head/6_15.png":"images/head/6_15.png","../../images/head/6_16.png":"images/head/6_16.png","../../images/head/6_17.png":"images/head/6_17.png","../../images/head/6_18.png":"images/head/6_18.png","../../images/head/6_19.png":"images/head/6_19.png","../../images/head/6_20.png":"images/head/6_20.png","../../images/head/6_21.png":"images/head/6_21.png","../../images/extra/7_2.png":"images/extra/7_2.png","../../images/extra/7_3.png":"images/extra/7_3.png","../../images/extra/7_4.png":"images/extra/7_4.png","../../images/extra/7_5.png":"images/extra/7_5.png","../../images/extra/7_6.png":"images/extra/7_6.png","../../images/extra/7_7.png":"images/extra/7_7.png","../../images/extra/7_8.png":"images/extra/7_8.png","../../images/extra/7_9.png":"images/extra/7_9.png","../../images/extra/7_10.png":"images/extra/7_10.png","../../images/extra/7_11.png":"images/extra/7_11.png","../../images/extra/7_12.png":"images/extra/7_12.png","../../images/extra/7_13.png":"images/extra/7_13.png"}],"node_modules/process/browser.js":[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {}; // cached from whatever global is present so that test runners that stub it
@@ -49210,7 +49210,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51763" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55941" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
