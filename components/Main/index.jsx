@@ -488,7 +488,7 @@ function Main() {
             rarity: "2,554",
           },
           {
-            name: "tie die shirt",
+            name: "tie dye shirt",
             img: tieDieShirt,
             rarity_no: "103",
             rarity: "2,010",
@@ -594,13 +594,13 @@ function Main() {
             name: "grin",
             img: grin,
             rarity_no: "2822",
-            rarity: "27,938",
+            rarity: "27,928",
           },
           {
             name: "surprised",
             img: surprised,
             rarity_no: "2822",
-            rarity: "27,938",
+            rarity: "27,928",
           },
           {
             name: "tongue out",
@@ -618,7 +618,7 @@ function Main() {
             name: "mustache",
             img: mustache,
             rarity_no: "140",
-            rarity: "240",
+            rarity: "2,376",
           },
           {
             name: "beard",
@@ -902,7 +902,7 @@ function Main() {
             name: "laurel wreath",
             img: laurelWreath,
             rarity_no: "9",
-            rarity: "0,158",
+            rarity: "0,089",
           },
           {
             name: "holo halo",
