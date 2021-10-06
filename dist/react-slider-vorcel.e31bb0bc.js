@@ -44286,7 +44286,7 @@ var DiscoverTraits = function DiscoverTraits(_ref) {
     return m.toUpperCase();
   })), /*#__PURE__*/_react.default.createElement("div", {
     className: "have-this-trait sfprodisplay-regular-normal-white-14px"
-  }, raritty, "%"))));
+  }, raritty, " -"))));
 };
 
 var _default = DiscoverTraits;
@@ -45606,122 +45606,122 @@ function Main() {
       attributes: [{
         name: "salmon",
         img: _.default,
-        rarity_no: "572",
+        rarity_no: "793",
         rarity: "5,663"
       }, {
         name: "navy",
         img: _2.default,
-        rarity_no: "572",
+        rarity_no: "668",
         rarity: "5,663"
       }, {
         name: "sky blue",
         img: _3.default,
-        rarity_no: "572",
+        rarity_no: "670",
         rarity: "5,663"
       }, {
         name: "lemon",
         img: _4.default,
-        rarity_no: "572",
+        rarity_no: "662",
         rarity: "5,663"
       }, {
         name: "pale green",
         img: _5.default,
-        rarity_no: "572",
+        rarity_no: "652",
         rarity: "5,663"
       }, {
         name: "dark green",
         img: _6.default,
-        rarity_no: "572",
+        rarity_no: "594",
         rarity: "5,663"
       }, {
         name: "pearl",
         img: _7.default,
-        rarity_no: "571",
+        rarity_no: "563",
         rarity: "5,653"
       }, {
         name: "chocolate",
         img: _8.default,
-        rarity_no: "571",
+        rarity_no: "576",
         rarity: "5,653"
       }, {
         name: "black",
         img: _9.default,
-        rarity_no: "571",
+        rarity_no: "595",
         rarity: "5,653"
       }, {
         name: "dim grey",
         img: _10.default,
-        rarity_no: "571",
+        rarity_no: "576",
         rarity: "5,653"
       }, {
         name: "gainsboro",
         img: _11.default,
-        rarity_no: "571",
+        rarity_no: "567",
         rarity: "5,653"
       }, {
         name: "beige",
         img: _12.default,
-        rarity_no: "571",
+        rarity_no: "577",
         rarity: "5,653"
       }, {
         name: "violet",
         img: _13.default,
-        rarity_no: "571",
+        rarity_no: "572",
         rarity: "5,653"
       }, {
         name: "coral",
         img: _14.default,
-        rarity_no: "571",
+        rarity_no: "580",
         rarity: "5,653"
       }, {
         name: "water",
         img: _15.default,
-        rarity_no: "140",
+        rarity_no: "384",
         rarity: "4,950"
       }, {
         name: "fire",
         img: _16.default,
-        rarity_no: "140",
+        rarity_no: "384",
         rarity: "4,950"
       }, {
         name: "solana",
         img: _17.default,
-        rarity_no: "140",
+        rarity_no: "408",
         rarity: "4,950"
       }, {
         name: "dawn",
         img: _18.default,
-        rarity_no: "140",
+        rarity_no: "399",
         rarity: "4,950"
       }, {
         name: "nerd face",
         img: _19.default,
-        rarity_no: "24",
+        rarity_no: "45",
         rarity: "0,545"
       }, {
         name: "deep space",
         img: _20.default,
-        rarity_no: "15",
+        rarity_no: "12",
         rarity: "0,149"
       }, {
         name: "matrix",
         img: _21.default,
-        rarity_no: "12",
+        rarity_no: "9",
         rarity: "0,119"
       }, {
         name: "trading setup",
         img: _22.default,
-        rarity_no: "9",
+        rarity_no: "8",
         rarity: "0,089"
       }, {
         name: "holo sphere",
         img: _23.default,
-        rarity_no: "6",
+        rarity_no: "4",
         rarity: "0,059"
       }, {
         name: "graffiti",
         img: _24.default,
-        rarity_no: "3",
+        rarity_no: "2",
         rarity: "0,030"
       }, {
         name: "pizza4Life",
@@ -45737,52 +45737,52 @@ function Main() {
         name: "light blonde",
         img: _26.default,
         rarity_no: "3577",
-        rarity: "35,412"
+        rarity: "39,016"
       }, {
         name: "light black",
         img: _27.default,
         rarity_no: "3577",
-        rarity: "35,412"
+        rarity: "25,978"
       }, {
         name: "mid",
         img: _28.default,
         rarity_no: "1230",
-        rarity: "12,177"
+        rarity: "14,632"
       }, {
         name: "dark",
         img: _29.default,
         rarity_no: "1230",
-        rarity: "12,177"
+        rarity: "14,830"
       }, {
         name: "puberty",
         img: _30.default,
-        rarity_no: "134",
-        rarity: "2,317"
+        rarity_no: "234",
+        rarity: "2,881"
       }, {
         name: "phantom",
         img: _31.default,
-        rarity_no: "199",
-        rarity: "0,980"
+        rarity_no: "99",
+        rarity: "1,247"
       }, {
         name: "zombie",
         img: _32.default,
-        rarity_no: "199",
-        rarity: "0,980"
+        rarity_no: "99",
+        rarity: "0,931"
       }, {
         name: "cyborg",
         img: _33.default,
         rarity_no: "28",
-        rarity: "0,277"
+        rarity: "0,257"
       }, {
         name: "intersteller",
         img: _34.default,
         rarity_no: "18",
-        rarity: "0,178"
+        rarity: "0,149"
       }, {
         name: "slime",
         img: _35.default,
         rarity_no: "8",
-        rarity: "0,079"
+        rarity: "0,069"
       }, {
         name: "ai",
         img: _36.default,
@@ -45797,57 +45797,57 @@ function Main() {
         name: "zip hoodie",
         img: _37.default,
         rarity_no: "687",
-        rarity: "6,801"
+        rarity: "8,009"
       }, {
         name: "white Tshirt",
         img: _38.default,
         rarity_no: "682",
-        rarity: "6,752"
+        rarity: "6,940"
       }, {
         name: "black Tshirt",
         img: _39.default,
         rarity_no: "682",
-        rarity: "6,752"
+        rarity: "7,237"
       }, {
         name: "white Shirt",
         img: _40.default,
         rarity_no: "682",
-        rarity: "6,752"
+        rarity: "6,465"
       }, {
         name: "suit vest",
         img: _41.default,
         rarity_no: "682",
-        rarity: "6,752"
+        rarity: "6,455"
       }, {
         name: "sttng uniform",
         img: _42.default,
         rarity_no: "682",
-        rarity: "6,752"
+        rarity: "6,098"
       }, {
         name: "ma-1",
         img: _43.default,
         rarity_no: "682",
-        rarity: "6,752"
+        rarity: "6,326"
       }, {
         name: "buffer jacket",
         img: _44.default,
         rarity_no: "682",
-        rarity: "6,752"
+        rarity: "6,356"
       }, {
         name: "wizard robe",
         img: _45.default,
         rarity_no: "682",
-        rarity: "6,752"
+        rarity: "6,287"
       }, {
         name: "college jacket",
         img: _46.default,
         rarity_no: "682",
-        rarity: "6,752"
+        rarity: "6,296"
       }, {
         name: "plaid shirt",
         img: _47.default,
         rarity_no: "682",
-        rarity: "6,752"
+        rarity: "6,395"
       }, {
         name: "denim jacket",
         img: _48.default,
@@ -45857,82 +45857,82 @@ function Main() {
         name: "track suit",
         img: _49.default,
         rarity_no: "543",
-        rarity: "5,376"
+        rarity: "5,712"
       }, {
         name: "turtle neck",
         img: _50.default,
-        rarity_no: "58",
-        rarity: "2,554"
+        rarity_no: "258",
+        rarity: "3,683"
       }, {
         name: "tie dye shirt",
         img: _51.default,
-        rarity_no: "103",
-        rarity: "2,010"
+        rarity_no: "203",
+        rarity: "2,366"
       }, {
         name: "solana uniform",
         img: _52.default,
-        rarity_no: "148",
-        rarity: "1,871"
+        rarity_no: "189",
+        rarity: "2,287"
       }, {
         name: "hawaiian shirt",
         img: _53.default,
-        rarity_no: "136",
-        rarity: "1,742"
+        rarity_no: "176",
+        rarity: "1,871"
       }, {
         name: "b-ball jersey",
         img: _54.default,
-        rarity_no: "151",
-        rarity: "1,485"
+        rarity_no: "150",
+        rarity: "1,416"
       }, {
         name: "soccer jersey",
         img: _55.default,
-        rarity_no: "163",
-        rarity: "1,317"
+        rarity_no: "133",
+        rarity: "1,030"
       }, {
         name: "biker jacket",
         img: _56.default,
-        rarity_no: "186",
-        rarity: "0,851"
+        rarity_no: "86",
+        rarity: "0,762"
       }, {
         name: "slip over",
         img: _57.default,
-        rarity_no: "172",
-        rarity: "0,713"
+        rarity_no: "72",
+        rarity: "0,564"
       }, {
         name: "suit",
         img: _58.default,
-        rarity_no: "159",
-        rarity: "0,505"
+        rarity_no: "51",
+        rarity: "0,406"
       }, {
         name: "space suit",
         img: _59.default,
         rarity_no: "35",
-        rarity: "0,347"
+        rarity: "0,287"
       }, {
         name: "thobe",
         img: _60.default,
         rarity_no: "30",
-        rarity: "0,297"
+        rarity: "0,248"
       }, {
         name: "caesar",
         img: _61.default,
         rarity_no: "22",
-        rarity: "0,218"
+        rarity: "0,168"
       }, {
         name: "diamond sweatshirt",
         img: _62.default,
         rarity_no: "28",
-        rarity: "0,158"
+        rarity: "0,129"
       }, {
         name: "holo zip hoodie",
         img: _63.default,
         rarity_no: "11",
-        rarity: "0,109"
+        rarity: "0,089"
       }, {
         name: "vader's armor",
         img: _64.default,
         rarity_no: "3",
-        rarity: "0,030"
+        rarity: "0,020"
       }, {
         name: "lava set",
         img: _65.default,
@@ -45947,67 +45947,67 @@ function Main() {
         name: "smirk",
         img: _66.default,
         rarity_no: "2822",
-        rarity: "27,938"
+        rarity: "24,522"
       }, {
         name: "grin",
         img: _67.default,
         rarity_no: "2822",
-        rarity: "27,928"
+        rarity: "24,364"
       }, {
         name: "surprised",
         img: _68.default,
         rarity_no: "2822",
-        rarity: "27,928"
+        rarity: "17,850"
       }, {
         name: "tongue out",
         img: _69.default,
-        rarity_no: "146",
-        rarity: "3,425"
+        rarity_no: "346",
+        rarity: "10,672"
       }, {
         name: "braces",
         img: _70.default,
-        rarity_no: "112",
-        rarity: "3,089"
+        rarity_no: "312",
+        rarity: "7,395"
       }, {
         name: "mustache",
         img: _71.default,
-        rarity_no: "140",
-        rarity: "2,376"
+        rarity_no: "240",
+        rarity: "4,000"
       }, {
         name: "beard",
         img: _72.default,
-        rarity_no: "130",
-        rarity: "1,683"
+        rarity_no: "170",
+        rarity: "2,891"
       }, {
         name: "send love",
         img: _73.default,
-        rarity_no: "123",
-        rarity: "1,495"
+        rarity_no: "151",
+        rarity: "2,475"
       }, {
         name: "party horn",
         img: _74.default,
-        rarity_no: "154",
-        rarity: "1,228"
+        rarity_no: "124",
+        rarity: "2,079"
       }, {
         name: "red bandana",
         img: _75.default,
-        rarity_no: "184",
-        rarity: "0,832"
+        rarity_no: "84",
+        rarity: "1,208"
       }, {
         name: "blue bandana",
         img: _76.default,
-        rarity_no: "184",
-        rarity: "0,832"
+        rarity_no: "84",
+        rarity: "1,198"
       }, {
         name: "cuban cigar",
         img: _77.default,
-        rarity_no: "155",
-        rarity: "0,545"
+        rarity_no: "55",
+        rarity: "0,703"
       }, {
         name: "vampire teeth",
         img: _78.default,
-        rarity_no: "236",
-        rarity: "0,356"
+        rarity_no: "51",
+        rarity: "0,307"
       }, {
         name: "joker",
         img: _79.default,
@@ -46017,7 +46017,7 @@ function Main() {
         name: "diamond grillz",
         img: _80.default,
         rarity_no: "13 ",
-        rarity: "0,129"
+        rarity: "0,119"
       }, {
         name: "elon musk",
         img: _81.default,
@@ -46032,72 +46032,72 @@ function Main() {
         name: "black",
         img: _82.default,
         rarity_no: "2009",
-        rarity: "19,889"
+        rarity: "20,711"
       }, {
         name: "brown",
         img: _83.default,
         rarity_no: "2007",
-        rarity: "19,869"
+        rarity: "17,602"
       }, {
         name: "blue",
         img: _84.default,
         rarity_no: "2007",
-        rarity: "19,869"
+        rarity: "15,820"
       }, {
         name: "green",
         img: _85.default,
         rarity_no: "2007",
-        rarity: "19,869"
+        rarity: "15,791"
       }, {
         name: "sunglasses",
         img: _86.default,
-        rarity_no: "100",
-        rarity: "3,960"
+        rarity_no: "400",
+        rarity: "10,524"
       }, {
         name: "nerd viper",
         img: _87.default,
-        rarity_no: "126",
-        rarity: "3,227"
+        rarity_no: "326",
+        rarity: "6,019"
       }, {
         name: "solana viper",
         img: _88.default,
-        rarity_no: "100",
-        rarity: "2,970"
+        rarity_no: "300",
+        rarity: "3,722"
       }, {
         name: "freckles",
         img: _89.default,
-        rarity_no: "89",
-        rarity: "2,861"
+        rarity_no: "289",
+        rarity: "2,881"
       }, {
         name: "exhausted",
         img: _90.default,
-        rarity_no: "133",
-        rarity: "2,307"
+        rarity_no: "233",
+        rarity: "2,030"
       }, {
         name: "nerd glasses",
         img: _91.default,
-        rarity_no: "52",
-        rarity: "1,505"
+        rarity_no: "152",
+        rarity: "1,525"
       }, {
         name: "future",
         img: _92.default,
-        rarity_no: "151",
-        rarity: "1,099"
+        rarity_no: "111",
+        rarity: "1,089"
       }, {
         name: "psycho",
         img: _93.default,
-        rarity_no: "290",
-        rarity: "0,891"
+        rarity_no: "90",
+        rarity: "0,723"
       }, {
         name: "diamond",
         img: _94.default,
-        rarity_no: "278",
-        rarity: "0,772"
+        rarity_no: "78",
+        rarity: "0,713"
       }, {
         name: "laser",
         img: _95.default,
-        rarity_no: "250",
-        rarity: "0,495"
+        rarity_no: "50",
+        rarity: "0,455"
       }, {
         name: "bitcoin",
         img: _96.default,
@@ -46107,7 +46107,7 @@ function Main() {
         name: "rainbow",
         img: _97.default,
         rarity_no: "14",
-        rarity: "0,139"
+        rarity: "0,119"
       }, {
         name: "onyx",
         img: _98.default,
@@ -46122,82 +46122,82 @@ function Main() {
         name: "none",
         img: _none.default,
         rarity_no: "1569",
-        rarity: "15,533"
+        rarity: "14,662"
       }, {
         name: "black beanie",
         img: _99.default,
         rarity_no: "1567",
-        rarity: "15,513"
+        rarity: "10,940"
       }, {
         name: "orange beanie",
         img: _100.default,
         rarity_no: "1567",
-        rarity: "15,513"
+        rarity: "11,068"
       }, {
         name: "beige beanie",
         img: _101.default,
         rarity_no: "1567",
-        rarity: "15,513"
+        rarity: "11,048"
       }, {
         name: "snap back",
         img: _102.default,
         rarity_no: "1567",
-        rarity: "15,513"
+        rarity: "10,969"
       }, {
         name: "flat cap",
         img: _103.default,
         rarity_no: "1567",
-        rarity: "15,513"
+        rarity: "10,989"
       }, {
         name: "headset",
         img: _104.default,
-        rarity_no: "151",
-        rarity: "1,485"
+        rarity_no: "150",
+        rarity: "8,583"
       }, {
         name: "solana headband",
         img: _105.default,
-        rarity_no: "220",
-        rarity: "1,188"
+        rarity_no: "120",
+        rarity: "7,574"
       }, {
         name: "quit crypto hat",
         img: _106.default,
-        rarity_no: "201",
-        rarity: "1,000"
+        rarity_no: "101",
+        rarity: "5,009"
       }, {
         name: "devil horns",
         img: _107.default,
-        rarity_no: "266",
-        rarity: "0,653"
+        rarity_no: "66",
+        rarity: "3,980"
       }, {
         name: "bowl cut",
         img: _108.default,
-        rarity_no: "163",
-        rarity: "0,624"
+        rarity_no: "63",
+        rarity: "2,683"
       }, {
         name: "crown",
         img: _109.default,
-        rarity_no: "250",
-        rarity: "0,495"
+        rarity_no: "51",
+        rarity: "0,931"
       }, {
         name: "space helmet",
         img: _110.default,
         rarity_no: "35",
-        rarity: "0,347"
+        rarity: "0,505"
       }, {
         name: "keffiyeh",
         img: _111.default,
         rarity_no: "30",
-        rarity: "0,297"
+        rarity: "0,287"
       }, {
         name: "diamond headset",
         img: _112.default,
         rarity_no: "27",
-        rarity: "0,267"
+        rarity: "0,257"
       }, {
         name: "war bonnet",
         img: _113.default,
         rarity_no: "22",
-        rarity: "0,218"
+        rarity: "0,208"
       }, {
         name: "super brain",
         img: _114.default,
@@ -46207,7 +46207,7 @@ function Main() {
         name: "laurel wreath",
         img: _115.default,
         rarity_no: "9",
-        rarity: "0,089"
+        rarity: "0,079"
       }, {
         name: "holo halo",
         img: _116.default,
@@ -46217,7 +46217,7 @@ function Main() {
         name: "vader's helmet",
         img: _117.default,
         rarity_no: "3",
-        rarity: "0,030"
+        rarity: "0,020"
       }, {
         name: "sam's hair",
         img: _118.default,
@@ -46241,27 +46241,27 @@ function Main() {
       }, {
         name: "coffee",
         img: _120.default,
-        rarity_no: "126",
+        rarity_no: "426",
         rarity: "4,217"
       }, {
         name: "cash",
         img: _121.default,
-        rarity_no: "108",
+        rarity_no: "308",
         rarity: "3,049"
       }, {
         name: "solana chain",
         img: _122.default,
-        rarity_no: "132",
+        rarity_no: "182",
         rarity: "1,802"
       }, {
         name: "blue lightsaber",
         img: _123.default,
-        rarity_no: "161",
+        rarity_no: "61",
         rarity: "0,604"
       }, {
         name: "red lightsaber",
         img: _124.default,
-        rarity_no: "261",
+        rarity_no: "61",
         rarity: "0,604"
       }, {
         name: "cape",
@@ -49210,7 +49210,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57616" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52737" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

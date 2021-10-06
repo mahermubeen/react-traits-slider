@@ -120,7 +120,7 @@ const DiscoverTraits = ({
             {name.replace(/(^\w|\s\w)/g, (m) => m.toUpperCase())}
           </div>
           <div className="have-this-trait sfprodisplay-regular-normal-white-14px">
-            {raritty}%
+            {raritty} -
           </div>
         </div>
       </div>
